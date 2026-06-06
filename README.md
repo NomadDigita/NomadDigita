@@ -40,6 +40,39 @@ const NomadDigita = {
 
 ---
 
+## ⚔️ The Arsenal
+
+<div align="center">
+
+
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=1500&pause=400&color=FF6B35&center=true&vCenter=true&width=500&lines=~%2F+cat+arsenal.txt+✦+loading+weapons...)
+
+
+
+</div>
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════╗
+║              ⚡ SKILL POWER LEVELS ⚡                ║
+╠══════════════════════════════════════════════════════╣
+║  TypeScript   ████████████████████  100  LEGENDARY  ║
+║  React/Next   ███████████████████░   95  LEGENDARY  ║
+║  Solidity     ████████████████░░░░   80  ELITE      ║
+║  Web3/Wagmi   ████████████████░░░░   80  ELITE      ║
+║  Node.js      ███████████████░░░░░   75  ADVANCED   ║
+║  Python       ██████████████░░░░░░   70  ADVANCED   ║
+║  Game Dev     █████████████░░░░░░░   65  ADVANCED   ║
+║  Rust         ████████░░░░░░░░░░░░   40  LEARNING   ║
+╚══════════════════════════════════════════════════════╝
+```
+
+</div>
+
+---
+
 ## 🎨 Frontend
 
 <div align="center">
@@ -143,6 +176,139 @@ const NomadDigita = {
     <img src="https://skillicons.dev/icons?i=vscode,github,linux,figma,postman,bash,git&perrow=7"/>
   </a>
 </p>
+
+---
+
+## 🏆 Achievements Unlocked
+
+<div align="center">
+
+
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=FFD700&center=true&vCenter=true&width=500&lines=~%2F+cat+achievements.log+✦+flexing...)
+
+
+
+</div>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/🏗️_Onchain_Builder-Deployed_Live_Agents-FF6B35?style=for-the-badge&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/🤖_AI_Integrator-Built_Trading_AI-AB47BC?style=for-the-badge&labelColor=0D1117"/>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/⚡_TypeScript_Purist-Zero_any_Policy-007ACC?style=for-the-badge&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/🌐_Multi_Chain-3+_Networks_Deployed-4CAF50?style=for-the-badge&labelColor=0D1117"/>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/🎮_Game_Dev-Shipped_3D_Worlds-FF4081?style=for-the-badge&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/🔗_DeFi_Native-Wagmi_+_Viem_Stack-00E5FF?style=for-the-badge&labelColor=0D1117"/>
+</p>
+
+---
+
+## 🔥 War Room — Live Project Status
+
+<div align="center">
+
+
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=1500&pause=400&color=FF0000&center=true&vCenter=true&width=500&lines=~%2F+sudo+monitor+--all+✦+all+systems+online...)
+
+
+
+</div>
+
+<div align="center">
+
+| Project | Language | Last Commit | Stars | Status |
+|---------|----------|-------------|-------|--------|
+| [mantle-agentic-core](https://github.com/NomadDigita/mantle-agentic-core) | 
+
+![TS](https://img.shields.io/badge/TS-007ACC?style=flat-square&logo=typescript&logoColor=white)
+
+ | 
+
+![](https://img.shields.io/github/last-commit/NomadDigita/mantle-agentic-core?style=flat-square&color=FF6B35&labelColor=0D1117&label=)
+
+ | 
+
+![](https://img.shields.io/github/stars/NomadDigita/mantle-agentic-core?style=flat-square&color=FFD700&labelColor=0D1117&label=⭐)
+
+ | 
+
+![](https://img.shields.io/badge/🟢-ACTIVE-4CAF50?style=flat-square&labelColor=0D1117)
+
+ |
+| [TradeMind-AI](https://github.com/NomadDigita/TradeMind-AI) | 
+
+![JS](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+ | 
+
+![](https://img.shields.io/github/last-commit/NomadDigita/TradeMind-AI?style=flat-square&color=FF6B35&labelColor=0D1117&label=)
+
+ | 
+
+![](https://img.shields.io/github/stars/NomadDigita/TradeMind-AI?style=flat-square&color=FFD700&labelColor=0D1117&label=⭐)
+
+ | 
+
+![](https://img.shields.io/badge/🟢-ACTIVE-4CAF50?style=flat-square&labelColor=0D1117)
+
+ |
+| [Asiwaju-Trading-Hub](https://github.com/NomadDigita/Asiwaju-Trading-Hub) | 
+
+![TS](https://img.shields.io/badge/TS-007ACC?style=flat-square&logo=typescript&logoColor=white)
+
+ | 
+
+![](https://img.shields.io/github/last-commit/NomadDigita/Asiwaju-Trading-Hub?style=flat-square&color=FF6B35&labelColor=0D1117&label=)
+
+ | 
+
+![](https://img.shields.io/github/stars/NomadDigita/Asiwaju-Trading-Hub?style=flat-square&color=FFD700&labelColor=0D1117&label=⭐)
+
+ | 
+
+![](https://img.shields.io/badge/🟢-ACTIVE-4CAF50?style=flat-square&labelColor=0D1117)
+
+ |
+| [RugGuard-AI](https://github.com/NomadDigita/RugGuard-AI) | 
+
+![JS](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+ | 
+
+![](https://img.shields.io/github/last-commit/NomadDigita/RugGuard-AI?style=flat-square&color=FF6B35&labelColor=0D1117&label=)
+
+ | 
+
+![](https://img.shields.io/github/stars/NomadDigita/RugGuard-AI?style=flat-square&color=FFD700&labelColor=0D1117&label=⭐)
+
+ | 
+
+![](https://img.shields.io/badge/🟡-BUILDING-FFD700?style=flat-square&labelColor=0D1117)
+
+ |
+| [BuildersBot](https://github.com/NomadDigita/BuildersBot) | 
+
+![JS](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+ | 
+
+![](https://img.shields.io/github/last-commit/NomadDigita/BuildersBot?style=flat-square&color=FF6B35&labelColor=0D1117&label=)
+
+ | 
+
+![](https://img.shields.io/github/stars/NomadDigita/BuildersBot?style=flat-square&color=FFD700&labelColor=0D1117&label=⭐)
+
+ | 
+
+![](https://img.shields.io/badge/🟢-ACTIVE-4CAF50?style=flat-square&labelColor=0D1117)
+
+ |
+
+</div>
 
 ---
 
@@ -314,13 +480,38 @@ Feature-rich Telegram bot project
 </div>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=NomadDigita&theme=radical&hide_border=true&background=0D1117&ring=FF6B35&fire=FF6B35&currStreakLabel=FF6B35&sideLabels=AB47BC&dates=FFFFFF" width="49%"/>
-  <img src="https://github-readme-stats.vercel.app/api?username=NomadDigita&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35&icon_color=AB47BC&text_color=FFFFFF" width="49%"/>
+  <img src="https://streak-stats.demolab.com?user=NomadDigita&theme=radical&hide_border=true&background=0D1117&ring=FF6B35&fire=FF6B35&currStreakLabel=FF6B35&sideLabels=AB47BC&dates=FFFFFF" width="60%"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NomadDigita&theme=radical" width="32%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NomadDigita&theme=radical" width="32%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NomadDigita&theme=radical" width="32%"/>
 </p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=NomadDigita&theme=redical&bg_color=0D1117&color=FF6B35&line=AB47BC&point=FF6B35&hide_border=true" width="100%"/>
 </p>
+
+---
+
+## 🐍 The Grid — Contributions
+
+<div align="center">
+
+
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=4CAF50&center=true&vCenter=true&width=500&lines=~%2F+snake+--eat+contributions+✦+nom+nom...)
+
+
+
+</div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NomadDigita/NomadDigita/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NomadDigita/NomadDigita/output/github-contribution-grid-snake.svg"/>
+  <img alt="github-snake" src="https://raw.githubusercontent.com/NomadDigita/NomadDigita/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+</picture>
 
 ---
 
