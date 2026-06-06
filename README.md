@@ -14,9 +14,19 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=80&section=header" width="100%"/>
 
-<br/>
+---
 
 ## 👾 Who Am I?
+
+<div align="center">
+
+
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=AB47BC&center=true&vCenter=true&width=600&lines=//+Loading+profile...;const+NomadDigita+%3D+%7B+...+%7D;+→+Initialized+✓)
+
+
+
+</div>
 
 <pre>
 const NomadDigita = {
@@ -28,11 +38,19 @@ const NomadDigita = {
 };
 </pre>
 
-<br/>
-
 ---
 
 ## 🎨 Frontend
+
+<div align="center">
+
+
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=00E5FF&center=true&vCenter=true&width=500&lines=~%2F+cd+frontend+✦+crafting+interfaces...)
+
+
+
+</div>
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -44,6 +62,16 @@ const NomadDigita = {
 
 ## ⚙️ Backend & Infrastructure
 
+<div align="center">
+
+
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=4CAF50&center=true&vCenter=true&width=500&lines=~%2F+cd+backend+✦+powering+the+engine...)
+
+
+
+</div>
+
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=nodejs,express,python,go,graphql,postgres,mongodb,redis,docker,aws,vercel,nginx&perrow=6"/>
@@ -53,6 +81,16 @@ const NomadDigita = {
 ---
 
 ## 🔗 Web3 & Blockchain
+
+<div align="center">
+
+
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=7B2FFF&center=true&vCenter=true&width=500&lines=~%2F+cd+web3+✦+building+onchain...)
+
+
+
+</div>
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -74,6 +112,16 @@ const NomadDigita = {
 ---
 
 ## 🎮 Game Development
+
+<div align="center">
+
+
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=FF4081&center=true&vCenter=true&width=500&lines=~%2F+cd+gamedev+✦+entering+the+matrix...)
+
+
+
+</div>
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -100,44 +148,174 @@ const NomadDigita = {
 
 ## 🚀 Featured Projects
 
-<p align="center">
-  <a href="https://github.com/NomadDigita/mantle-agentic-core">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NomadDigita&repo=mantle-agentic-core&theme=radical&bg_color=0D1117&title_color=FF6B35&icon_color=AB47BC&hide_border=true"/>
-  </a>
-  <a href="https://github.com/NomadDigita/TradeMind-AI">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NomadDigita&repo=TradeMind-AI&theme=radical&bg_color=0D1117&title_color=FF6B35&icon_color=AB47BC&hide_border=true"/>
-  </a>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/NomadDigita/Asiwaju-Trading-Hub">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NomadDigita&repo=Asiwaju-Trading-Hub&theme=radical&bg_color=0D1117&title_color=FF6B35&icon_color=AB47BC&hide_border=true"/>
-  </a>
-  <a href="https://github.com/NomadDigita/RugGuard-AI">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NomadDigita&repo=RugGuard-AI&theme=radical&bg_color=0D1117&title_color=FF6B35&icon_color=AB47BC&hide_border=true"/>
-  </a>
-</p>
 
-<p align="center">
-  <a href="https://github.com/NomadDigita/BuildersBot">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NomadDigita&repo=BuildersBot&theme=radical&bg_color=0D1117&title_color=FF6B35&icon_color=AB47BC&hide_border=true"/>
-  </a>
-  <a href="https://github.com/NomadDigita/Furwhisk-telegram-bot">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NomadDigita&repo=Furwhisk-telegram-bot&theme=radical&bg_color=0D1117&title_color=FF6B35&icon_color=AB47BC&hide_border=true"/>
-  </a>
-</p>
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=FF6B35&center=true&vCenter=true&width=500&lines=~%2F+ls+projects%2F+✦+loading+builds...)
+
+
+
+</div>
+
+<table width="100%" cellspacing="0" cellpadding="10">
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 [mantle-agentic-core](https://github.com/NomadDigita/mantle-agentic-core)
+Onchain AI agent dashboard — Next.js + TypeScript
+
+
+
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+
+
+
+
+![Stars](https://img.shields.io/github/stars/NomadDigita/mantle-agentic-core?style=flat-square&color=FF6B35&labelColor=0D1117)
+
+
+
+
+![Last Commit](https://img.shields.io/github/last-commit/NomadDigita/mantle-agentic-core?style=flat-square&color=AB47BC&labelColor=0D1117)
+
+
+
+</td>
+<td width="50%" valign="top">
+
+### 📈 [TradeMind-AI](https://github.com/NomadDigita/TradeMind-AI)
+AI-powered trading platform and analytics engine
+
+
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+
+
+
+![Stars](https://img.shields.io/github/stars/NomadDigita/TradeMind-AI?style=flat-square&color=FF6B35&labelColor=0D1117)
+
+
+
+
+![Last Commit](https://img.shields.io/github/last-commit/NomadDigita/TradeMind-AI?style=flat-square&color=AB47BC&labelColor=0D1117)
+
+
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 💹 [Asiwaju-Trading-Hub](https://github.com/NomadDigita/Asiwaju-Trading-Hub)
+DeFi trading hub interface — TypeScript
+
+
+
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+
+
+
+
+![Stars](https://img.shields.io/github/stars/NomadDigita/Asiwaju-Trading-Hub?style=flat-square&color=FF6B35&labelColor=0D1117)
+
+
+
+
+![Last Commit](https://img.shields.io/github/last-commit/NomadDigita/Asiwaju-Trading-Hub?style=flat-square&color=AB47BC&labelColor=0D1117)
+
+
+
+</td>
+<td width="50%" valign="top">
+
+### 🛡️ [RugGuard-AI](https://github.com/NomadDigita/RugGuard-AI)
+AI-based rug pull detection and protection tool
+
+
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+
+
+
+![Stars](https://img.shields.io/github/stars/NomadDigita/RugGuard-AI?style=flat-square&color=FF6B35&labelColor=0D1117)
+
+
+
+
+![Last Commit](https://img.shields.io/github/last-commit/NomadDigita/RugGuard-AI?style=flat-square&color=AB47BC&labelColor=0D1117)
+
+
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 [BuildersBot](https://github.com/NomadDigita/BuildersBot)
+Automation bot for Web3 builders community
+
+
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+
+
+
+![Stars](https://img.shields.io/github/stars/NomadDigita/BuildersBot?style=flat-square&color=FF6B35&labelColor=0D1117)
+
+
+
+
+![Last Commit](https://img.shields.io/github/last-commit/NomadDigita/BuildersBot?style=flat-square&color=AB47BC&labelColor=0D1117)
+
+
+
+</td>
+<td width="50%" valign="top">
+
+### 🐾 [Furwhisk-telegram-bot](https://github.com/NomadDigita/Furwhisk-telegram-bot)
+Feature-rich Telegram bot project
+
+
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+
+
+
+![Stars](https://img.shields.io/github/stars/NomadDigita/Furwhisk-telegram-bot?style=flat-square&color=FF6B35&labelColor=0D1117)
+
+
+
+
+![Last Commit](https://img.shields.io/github/last-commit/NomadDigita/Furwhisk-telegram-bot?style=flat-square&color=AB47BC&labelColor=0D1117)
+
+
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 📊 My Stats
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=NomadDigita&theme=radical&no-frame=true&no-bg=true&margin-w=6&row=1"/>
-</p>
+<div align="center">
+
+
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=FFD700&center=true&vCenter=true&width=500&lines=~%2F+cat+stats.json+✦+fetching+data...)
+
+
+
+</div>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NomadDigita&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35&icon_color=AB47BC&text_color=FFFFFF" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NomadDigita&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35&text_color=FFFFFF" height="165"/>
+  <img src="https://streak-stats.demolab.com?user=NomadDigita&theme=radical&hide_border=true&background=0D1117&ring=FF6B35&fire=FF6B35&currStreakLabel=FF6B35&sideLabels=AB47BC&dates=FFFFFF" width="49%"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=NomadDigita&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35&icon_color=AB47BC&text_color=FFFFFF" width="49%"/>
 </p>
 
 <p align="center">
