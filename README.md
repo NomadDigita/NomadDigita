@@ -3,7 +3,13 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2500&pause=800&color=FF6B35&center=true&vCenter=true&width=700&lines=Hey+I'm+The+Digital+Vagabond+👾;Web3+%2B+AI+Engineer+⚡;Onchain+Agent+Builder+🤖;Frontend+Artisan+%2B+Game+Dev+🎮;Wandering+The+Digital+Frontier+🌐" alt="Typing SVG"/>
+
+
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2500&pause=800&color=FF6B35&center=true&vCenter=true&width=700&lines=Hey+I'm+The+Digital+Vagabond+👾;Web3+%2B+AI+Engineer+⚡;Onchain+Agent+Builder+🤖;Frontend+Artisan+%2B+Game+Dev+🎮;Wandering+The+Digital+Frontier+🌐)
+
+
+
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=80&section=header" width="100%"/>
@@ -92,7 +98,42 @@ const NomadDigita = {
 
 ---
 
+## 🚀 Featured Projects
+
+<p align="center">
+  <a href="https://github.com/NomadDigita/mantle-agentic-core">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NomadDigita&repo=mantle-agentic-core&theme=radical&bg_color=0D1117&title_color=FF6B35&icon_color=AB47BC&hide_border=true"/>
+  </a>
+  <a href="https://github.com/NomadDigita/TradeMind-AI">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NomadDigita&repo=TradeMind-AI&theme=radical&bg_color=0D1117&title_color=FF6B35&icon_color=AB47BC&hide_border=true"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/NomadDigita/Asiwaju-Trading-Hub">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NomadDigita&repo=Asiwaju-Trading-Hub&theme=radical&bg_color=0D1117&title_color=FF6B35&icon_color=AB47BC&hide_border=true"/>
+  </a>
+  <a href="https://github.com/NomadDigita/RugGuard-AI">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NomadDigita&repo=RugGuard-AI&theme=radical&bg_color=0D1117&title_color=FF6B35&icon_color=AB47BC&hide_border=true"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/NomadDigita/BuildersBot">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NomadDigita&repo=BuildersBot&theme=radical&bg_color=0D1117&title_color=FF6B35&icon_color=AB47BC&hide_border=true"/>
+  </a>
+  <a href="https://github.com/NomadDigita/Furwhisk-telegram-bot">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NomadDigita&repo=Furwhisk-telegram-bot&theme=radical&bg_color=0D1117&title_color=FF6B35&icon_color=AB47BC&hide_border=true"/>
+  </a>
+</p>
+
+---
+
 ## 📊 My Stats
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=NomadDigita&theme=radical&no-frame=true&no-bg=true&margin-w=6&row=1"/>
+</p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=NomadDigita&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35&icon_color=AB47BC&text_color=FFFFFF" height="165"/>
