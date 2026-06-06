@@ -220,96 +220,22 @@ const NomadDigita = {
 
 <div align="center">
 
-| Project | Language | Last Commit | Stars | Status |
-|---------|----------|-------------|-------|--------|
-| [mantle-agentic-core](https://github.com/NomadDigita/mantle-agentic-core) | 
-
-![TS](https://img.shields.io/badge/TS-007ACC?style=flat-square&logo=typescript&logoColor=white)
-
- | 
-
-![](https://img.shields.io/github/last-commit/NomadDigita/mantle-agentic-core?style=flat-square&color=FF6B35&labelColor=0D1117&label=)
-
- | 
-
-![](https://img.shields.io/github/stars/NomadDigita/mantle-agentic-core?style=flat-square&color=FFD700&labelColor=0D1117&label=⭐)
-
- | 
-
-![](https://img.shields.io/badge/🟢-ACTIVE-4CAF50?style=flat-square&labelColor=0D1117)
-
- |
-| [TradeMind-AI](https://github.com/NomadDigita/TradeMind-AI) | 
-
-![JS](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
- | 
-
-![](https://img.shields.io/github/last-commit/NomadDigita/TradeMind-AI?style=flat-square&color=FF6B35&labelColor=0D1117&label=)
-
- | 
-
-![](https://img.shields.io/github/stars/NomadDigita/TradeMind-AI?style=flat-square&color=FFD700&labelColor=0D1117&label=⭐)
-
- | 
-
-![](https://img.shields.io/badge/🟢-ACTIVE-4CAF50?style=flat-square&labelColor=0D1117)
-
- |
-| [Asiwaju-Trading-Hub](https://github.com/NomadDigita/Asiwaju-Trading-Hub) | 
-
-![TS](https://img.shields.io/badge/TS-007ACC?style=flat-square&logo=typescript&logoColor=white)
-
- | 
-
-![](https://img.shields.io/github/last-commit/NomadDigita/Asiwaju-Trading-Hub?style=flat-square&color=FF6B35&labelColor=0D1117&label=)
-
- | 
-
-![](https://img.shields.io/github/stars/NomadDigita/Asiwaju-Trading-Hub?style=flat-square&color=FFD700&labelColor=0D1117&label=⭐)
-
- | 
-
-![](https://img.shields.io/badge/🟢-ACTIVE-4CAF50?style=flat-square&labelColor=0D1117)
-
- |
-| [RugGuard-AI](https://github.com/NomadDigita/RugGuard-AI) | 
-
-![JS](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
- | 
-
-![](https://img.shields.io/github/last-commit/NomadDigita/RugGuard-AI?style=flat-square&color=FF6B35&labelColor=0D1117&label=)
-
- | 
-
-![](https://img.shields.io/github/stars/NomadDigita/RugGuard-AI?style=flat-square&color=FFD700&labelColor=0D1117&label=⭐)
-
- | 
-
-![](https://img.shields.io/badge/🟡-BUILDING-FFD700?style=flat-square&labelColor=0D1117)
-
- |
-| [BuildersBot](https://github.com/NomadDigita/BuildersBot) | 
-
-![JS](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
- | 
-
-![](https://img.shields.io/github/last-commit/NomadDigita/BuildersBot?style=flat-square&color=FF6B35&labelColor=0D1117&label=)
-
- | 
-
-![](https://img.shields.io/github/stars/NomadDigita/BuildersBot?style=flat-square&color=FFD700&labelColor=0D1117&label=⭐)
-
- | 
-
-![](https://img.shields.io/badge/🟢-ACTIVE-4CAF50?style=flat-square&labelColor=0D1117)
-
- |
+```
+┌──────────────────────────────────────────────────────────────────┐
+│            🔥  WAR ROOM  —  LIVE PROJECT STATUS                  │
+├─────────────────────────┬──────────┬─────────────┬──────────────┤
+│  PROJECT                │  STACK   │  ACTIVITY   │  STATUS      │
+├─────────────────────────┼──────────┼─────────────┼──────────────┤
+│  mantle-agentic-core    │  TS      │  🔥 HOT     │  🟢 ACTIVE   │
+│  TradeMind-AI           │  JS      │  ⚡ LIVE    │  🟢 ACTIVE   │
+│  Asiwaju-Trading-Hub    │  TS      │  ⚡ LIVE    │  🟢 ACTIVE   │
+│  RugGuard-AI            │  JS      │  🛠️  WIP    │  🟡 BUILDING │
+│  BuildersBot            │  JS      │  🔥 HOT     │  🟢 ACTIVE   │
+│  Furwhisk-telegram-bot  │  JS      │  📦 DONE    │  ✅ SHIPPED  │
+└─────────────────────────┴──────────┴─────────────┴──────────────┘
+```
 
 </div>
-
 ---
 
 ## 🚀 Featured Projects
