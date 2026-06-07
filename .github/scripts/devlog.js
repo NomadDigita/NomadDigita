@@ -1,1 +1,112 @@
+const https = require('https');
+const fs = require('fs');
 
+async function getRecentCommits() {
+  return new Promise((resolve, reject) => {
+    const options = {
+      hostname: 'api.github.com',
+      path: '/users/NomadDigita/events?per_page=30',
+      headers: {
+        'User-Agent': 'NomadDigita-README-Bot',
+        'Authorization': `token ${process.env.GITHUB_TOKEN}`
+      }
+    };
+    https.get(options, (res) => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        const events = JSON.parse(data);
+        const commits = [];
+        events
+          .filter(e => e.type === 'PushEvent')
+          .forEach(event => {
+            event.payload.commits.forEach(commit => {
+              commits.push({
+                repo: event.repo.name.replace('NomadDigita/', ''),
+                message: commit.message.split('\n')[0]
+              });
+            });
+          });
+        resolve(commits.slice(0, 8));
+      });
+    }).on('error', reject);
+  });
+}
+
+async function generateDevLog(commits) {
+  const summary = commits.length
+    ? commits.map(c => `[${c.repo}] ${c.message}`).join('\n')
+    : 'No commits today — the Vagabond is architecting the next move.';
+
+  const prompt = `You are writing a short dev update for Asiwaju — a Web3 + AI engineer known as "The Digital Vagabond" (GitHub: NomadDigita). He builds onchain AI agents, DeFi interfaces, and trading platforms using TypeScript, Next.js, Wagmi, and Viem.
+
+Based on these recent commits, write exactly 2 punchy sentences in first person. Sound like a passionate builder. Be specific about the tech. No hashtags, no bullet points, no emojis — just raw builder energy.
+
+Commits:
+${summary}
+
+Write ONLY the 2 sentences. Nothing else.`;
+
+  const body = JSON.stringify({
+    model: 'claude-sonnet-4-20250514',
+    max_tokens: 150,
+    messages: [{ role: 'user', content: prompt }]
+  });
+
+  return new Promise((resolve, reject) => {
+    const options = {
+      hostname: 'api.anthropic.com',
+      path: '/v1/messages',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': process.env.ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01',
+        'Content-Length': Buffer.byteLength(body)
+      }
+    };
+    const req = https.request(options, (res) => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        const response = JSON.parse(data);
+        resolve(response.content[0].text.trim());
+      });
+    });
+    req.on('error', reject);
+    req.write(body);
+    req.end();
+  });
+}
+
+async function updateReadme(devLog) {
+  const readme = fs.readFileSync('README.md', 'utf8');
+  const date = new Date().toLocaleDateString('en-GB', {
+    day: 'numeric', month: 'long', year: 'numeric'
+  });
+
+  const newSection = `<!-- DEVLOG_START -->
+> 🤖 **Claude AI wrote this** · ${date}
+
+*${devLog}*
+<!-- DEVLOG_END -->`;
+
+  const updated = readme.replace(
+    /<!-- DEVLOG_START -->[\s\S]*?<!-- DEVLOG_END -->/,
+    newSection
+  );
+
+  fs.writeFileSync('README.md', updated);
+  console.log('✅ Dev log updated!');
+}
+
+async function main() {
+  console.log('Fetching commits...');
+  const commits = await getRecentCommits();
+  console.log(`Found ${commits.length} commits`);
+  const devLog = await generateDevLog(commits);
+  console.log('Generated:', devLog);
+  await updateReadme(devLog);
+}
+
+main().catch(console.error);
