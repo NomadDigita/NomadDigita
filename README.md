@@ -40,7 +40,7 @@ const NomadDigita = {
 
 ---
 
-## 📡 Live Dev Log — Written by Claude AI
+## 📡 Live Dev Log — Written by Gemini AI
 
 <div align="center">
 
@@ -53,9 +53,9 @@ const NomadDigita = {
 </div>
 
 <!-- DEVLOG_START -->
-> 🤖 **Claude AI wrote this** · Initializing...
+> 🤖 **Gemini AI wrote this** · Initializing...
 
-*The Digital Vagabond is booting up the dev log system — check back tomorrow.*
+*The Digital Vagabond is booting up the dev log — check back tomorrow.*
 <!-- DEVLOG_END -->
 
 ---
