@@ -48,20 +48,18 @@ ${summary}
 Write ONLY the 2 sentences. Nothing else.`;
 
   const body = JSON.stringify({
-    model: 'claude-sonnet-4-20250514',
-    max_tokens: 150,
-    messages: [{ role: 'user', content: prompt }]
+    contents: [{ parts: [{ text: prompt }] }],
+    generationConfig: { maxOutputTokens: 150, temperature: 0.8 }
   });
 
   return new Promise((resolve, reject) => {
+    const apiKey = process.env.GEMINI_API_KEY;
     const options = {
-      hostname: 'api.anthropic.com',
-      path: '/v1/messages',
+      hostname: 'generativelanguage.googleapis.com',
+      path: `/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`,
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'x-api-key': process.env.ANTHROPIC_API_KEY,
-        'anthropic-version': '2023-06-01',
         'Content-Length': Buffer.byteLength(body)
       }
     };
@@ -70,7 +68,7 @@ Write ONLY the 2 sentences. Nothing else.`;
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
         const response = JSON.parse(data);
-        resolve(response.content[0].text.trim());
+        resolve(response.candidates[0].content.parts[0].text.trim());
       });
     });
     req.on('error', reject);
@@ -86,7 +84,7 @@ async function updateReadme(devLog) {
   });
 
   const newSection = `<!-- DEVLOG_START -->
-> 🤖 **Claude AI wrote this** · ${date}
+> 🤖 **Gemini AI wrote this** · ${date}
 
 *${devLog}*
 <!-- DEVLOG_END -->`;
