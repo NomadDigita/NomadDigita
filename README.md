@@ -441,6 +441,26 @@ Feature-rich Telegram bot project
 
 ---
 
+## 🌐 3D Contribution Universe
+
+<div align="center">
+
+
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=00F5FF&center=true&vCenter=true&width=500&lines=~%2F+render+--3d+contributions+✦+generating+universe...)
+
+
+
+</div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green-animate.svg"/>
+  <img alt="3D contribution graph" src="profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+</picture>
+
+---
+
 ## 🌐 Find Me In The Wild
 
 <p align="center">
