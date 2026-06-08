@@ -337,15 +337,17 @@ Proving that great developer experience starts with the interface people already
   <img alt="3D Contribution Universe" src="profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
 </picture>
 
-<div align="center">
+<br/>
 
+<p align="center">
+  <img src="assets/cosmos.svg" width="100%"/>
+</p>
 
+<br/>
 
-![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=4CAF50&center=true&vCenter=true&width=500&lines=~%2F+snake+--eat+contributions+✦+the+grid+is+alive...)
-
-
-
-</div>
+<p align="center">
+  <img src="assets/frequency.svg" width="100%"/>
+</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NomadDigita/NomadDigita/output/github-contribution-grid-snake-dark.svg"/>
