@@ -1,0 +1,17 @@
+name: "📡 Send a Signal"
+description: "Ask The Digital Vagabond anything. AI responds in character."
+title: "[SIGNAL] "
+labels: ["📡 signal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📡 Open A Signal
+        Your message reaches the Digital Vagabond's AI. Ask about Web3, AI, building, or anything. Response arrives in minutes.
+  - type: textarea
+    id: message
+    attributes:
+      label: "Your Message"
+      placeholder: "What are you building? What should I know about Wagmi?"
+    validations:
+      required: true
