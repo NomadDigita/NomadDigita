@@ -1,0 +1,36 @@
+name: Signal Responder
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+  contents: write
+
+jobs:
+  respond:
+    if: contains(github.event.issue.labels.*.name, '📡 signal') || startsWith(github.event.issue.title, '[SIGNAL]')
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Respond
+        env:
+          GITHUB_TOKEN:    ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY:  ${{ secrets.GEMINI_API_KEY }}
+          ISSUE_NUMBER:    ${{ github.event.issue.number }}
+          ISSUE_BODY:      ${{ github.event.issue.body }}
+          ISSUE_USER:      ${{ github.event.issue.user.login }}
+        run: node .github/scripts/signal.js
+      - name: Commit README
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add README.md
+          git commit -m "📡 Signal #${{ github.event.issue.number }} received" || echo "No changes"
+          git push
