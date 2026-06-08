@@ -65,36 +65,6 @@
 
 ---
 
-## 📡 Open A Signal
-
-<div align="center">
-
-
-
-![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=00F5FF&center=true&vCenter=true&width=600&lines=~%2F+awaiting+transmission+✦+signal+channel+open...)
-
-
-
-</div>
-
-<p align="center">
-  <a href="https://github.com/NomadDigita/NomadDigita/issues/new?template=signal.yml">
-    <img src="https://img.shields.io/badge/📡_OPEN_A_SIGNAL-Talk_To_The_Digital_Vagabond-FF6B35?style=for-the-badge&labelColor=0D1117"/>
-  </a>
-</p>
-
-<p align="center"><em>Ask about Web3, AI, building, or anything. The Vagabond's AI responds in character within minutes.</em></p>
-
-<div align="center">
-
-| Signal | From | Message | Date |
-|--------|------|---------|------|
-<!-- SIGNALS_LOG -->
-
-</div>
-
----
-
 ## 📡 Live Transmission
 
 <div align="center">
@@ -410,6 +380,36 @@ Proving that great developer experience starts with the interface people already
 
 ---
 
+## 📡 Open A Signal
+
+<div align="center">
+
+
+
+![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=00F5FF&center=true&vCenter=true&width=600&lines=~%2F+awaiting+transmission+✦+signal+channel+open...)
+
+
+
+</div>
+
+<p align="center">
+  <a href="https://github.com/NomadDigita/NomadDigita/issues/new?template=signal.yml">
+    <img src="https://img.shields.io/badge/📡_OPEN_A_SIGNAL-Talk_To_The_Digital_Vagabond-FF6B35?style=for-the-badge&labelColor=0D1117"/>
+  </a>
+</p>
+
+<p align="center"><em>Ask about Web3, AI, building, or anything. The Vagabond's AI responds in character within minutes.</em></p>
+
+<div align="center">
+
+| Signal | From | Message | Date |
+|--------|------|---------|------|
+<!-- SIGNALS_LOG -->
+
+</div>
+
+---
+
 ## 📡 Transmission Frequency
 
 <p align="center">
@@ -431,3 +431,5 @@ Proving that great developer experience starts with the interface people already
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=80&section=footer" width="100%"/>
+
+---
