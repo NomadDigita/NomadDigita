@@ -2,13 +2,37 @@
 
 
 
+![](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=11&duration=80&pause=3000&color=39D353&center=true&vCenter=true&width=600&height=20&lines=INITIALIZING+NOMADDIGITA.PROFILE+............+OK)
+
+
+
+
+
+![](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=11&duration=80&pause=3000&color=39D353&center=true&vCenter=true&width=600&height=20&lines=LOADING+MODULES+.............................+OK)
+
+
+
+
+
+![](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=11&duration=80&pause=3000&color=FF6B35&center=true&vCenter=true&width=600&height=20&lines=WELCOME+TO+THE+FRONTIER+....................+ONLINE)
+
+
+
+</div>
+
+<br/>
+
+<div align="center">
+
+
+
 ![](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=38&duration=4000&pause=1000&color=FF6B35&center=true&vCenter=true&width=800&height=70&lines=NOMADDIGITA)
 
 
 
 
 
-![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2500&pause=800&color=888888&center=true&vCenter=true&width=700&height=30&lines=Architect+of+Autonomous+Systems+·+Digital+Vagabond;AI+%2B+Web3+Engineer+·+Building+What+Doesn't+Exist+Yet;Wandering+the+Frontier+·+Shipping+the+Future)
+![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2500&pause=800&color=888888&center=true&vCenter=true&width=700&height=30&lines=Architect+of+Autonomous+Systems+·+Digital+Vagabond;Building+What+Doesn't+Exist+Yet+·+AI+%2B+Web3;Wandering+The+Frontier+·+Shipping+The+Future)
 
 
 
@@ -33,15 +57,11 @@
 
 ---
 
-## ◈ The Codex
+## ◈ Mission Control
 
-<pre align="center">
-  ALIAS        →  NomadDigita · Digital Vagabond · he/him
-  DISCIPLINE   →  Web3 Engineer · AI Developer · Game Architect
-  PHILOSOPHY   →  Onchain first. AI-native always. Ship without permission.
-  OBSESSION    →  Autonomous agents that act while the world sleeps.
-  BUILDING     →  At the intersection of intelligence and the blockchain.
-</pre>
+<p align="center">
+  <img src="assets/dashboard.svg" width="100%"/>
+</p>
 
 ---
 
@@ -58,10 +78,22 @@
 </div>
 
 <!-- DEVLOG_START -->
-> 🤖 **Gemini AI wrote this** · 8 June 2026
+> 🤖 **Gemini AI wrote this** · Initializing...
 
-*The Digital Vagabond is deep in the codebase — dev log updating...*
+*The Digital Vagabond is booting up the dev log — check back tomorrow.*
 <!-- DEVLOG_END -->
+
+---
+
+## ◈ The Codex
+
+<pre align="center">
+  ALIAS        →  NomadDigita · Digital Vagabond · he/him
+  DISCIPLINE   →  Web3 Engineer · AI Developer · Game Architect
+  PHILOSOPHY   →  Onchain first. AI-native always. Ship without permission.
+  OBSESSION    →  Autonomous agents that act while the world sleeps.
+  TIMEZONE     →  Building at midnight. Shipping at dawn.
+</pre>
 
 ---
 
@@ -83,7 +115,7 @@
 
 **[🤖 mantle-agentic-core](https://github.com/NomadDigita/mantle-agentic-core)**
 
-When AI needed to go fully onchain and act autonomously — agents that execute, monitor, and self-optimize in real-time without human intervention.
+When AI needed to go fully onchain — agents that execute, monitor, and self-optimize in real-time without human intervention.
 
 
 
@@ -111,7 +143,7 @@ When AI needed to go fully onchain and act autonomously — agents that execute,
 
 **[📈 TradeMind-AI](https://github.com/NomadDigita/TradeMind-AI)**
 
-When trading needed intelligence baked in — not bolted on. An AI-native platform that thinks, analyzes, and acts while you sleep.
+When trading needed intelligence baked in — an AI-native platform that thinks, analyzes, and acts while you sleep.
 
 
 
@@ -136,7 +168,7 @@ When trading needed intelligence baked in — not bolted on. An AI-native platfo
 
 **[💹 Asiwaju-Trading-Hub](https://github.com/NomadDigita/Asiwaju-Trading-Hub)**
 
-When DeFi complexity needed to disappear behind a clean interface — built for traders who move at the speed of the chain.
+When DeFi complexity needed to disappear — built for traders who move at the speed of the chain.
 
 
 
@@ -159,7 +191,7 @@ When DeFi complexity needed to disappear behind a clean interface — built for 
 
 **[🛡️ RugGuard-AI](https://github.com/NomadDigita/RugGuard-AI)**
 
-When DeFi needed a shield — AI-powered rug pull detection that protects before you lose everything.
+When DeFi needed a shield — AI-powered rug pull detection before you lose everything.
 
 
 
@@ -184,7 +216,7 @@ When DeFi needed a shield — AI-powered rug pull detection that protects before
 
 **[🤖 BuildersBot](https://github.com/NomadDigita/BuildersBot)**
 
-When the Web3 builders community needed automation — a bot that handles the noise so humans can focus on building.
+When the Web3 builders community needed automation — handles the noise so humans can build.
 
 
 
@@ -253,7 +285,7 @@ Proving that great developer experience starts with the interface people already
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,sass,solidity,ethereum,python,nodejs,docker,aws,unity,unreal,threejs,blender&perrow=8"/>
+    <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,solidity,python,nodejs,docker,aws,unity,unreal,threejs,blender,figma,git&perrow=8"/>
   </a>
 </p>
 
@@ -320,6 +352,25 @@ Proving that great developer experience starts with the interface people already
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NomadDigita/NomadDigita/output/github-contribution-grid-snake.svg"/>
   <img alt="github-snake" src="https://raw.githubusercontent.com/NomadDigita/NomadDigita/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 </picture>
+
+---
+
+## 📜 The Chronicles
+
+<div align="center">
+
+
+
+![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=FFD700&center=true&vCenter=true&width=600&lines=~%2F+cat+chronicles.log+✦+the+story+so+far...)
+
+
+
+</div>
+
+*An auto-written record of the build — updated every Sunday by Gemini AI.*
+
+<!-- CHRONICLES_START -->
+<!-- CHRONICLES_END -->
 
 ---
 
