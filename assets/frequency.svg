@@ -1,0 +1,77 @@
+<svg width="900" height="160" viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%"   stop-color="#AB47BC" stop-opacity="0.7"/>
+    <stop offset="50%"  stop-color="#FF6B35" stop-opacity="0.7"/>
+    <stop offset="100%" stop-color="#00F5FF" stop-opacity="0.7"/>
+  </linearGradient>
+  <filter id="glow">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<rect width="900" height="160" rx="10" fill="#0D1117"/>
+<rect x=".5" y=".5" width="899" height="159" rx="10" fill="none" stroke="url(#border)" stroke-width="1"/>
+
+<text x="20" y="20" font-family="monospace" font-size="9" fill="#FF6B35" letter-spacing="3">THE FREQUENCY</text>
+<text x="140" y="20" font-family="monospace" font-size="9" fill="#484F58"> · COMMIT SPECTRUM · 26 WEEKS · 0 COMMITS · 0 ACTIVE WEEKS</text>
+
+<line x1="20" y1="128" x2="880" y2="128" stroke="#1C2128" stroke-width="1"/>
+
+<g filter="url(#glow)">
+  <rect x="20" y="125" width="31" height="3" rx="1" fill="rgb(123,47,255)" opacity="0.95"/>
+  <rect x="20" y="128"     width="31" height="1.0" rx="1" fill="rgb(123,47,255)" opacity="0.2"/>
+  <rect x="53" y="125" width="31" height="3" rx="1" fill="rgb(134,52,239)" opacity="0.95"/>
+  <rect x="53" y="128"     width="31" height="1.0" rx="1" fill="rgb(134,52,239)" opacity="0.2"/>
+  <rect x="86" y="125" width="31" height="3" rx="1" fill="rgb(144,57,223)" opacity="0.95"/>
+  <rect x="86" y="128"     width="31" height="1.0" rx="1" fill="rgb(144,57,223)" opacity="0.2"/>
+  <rect x="119" y="125" width="31" height="3" rx="1" fill="rgb(155,61,207)" opacity="0.95"/>
+  <rect x="119" y="128"     width="31" height="1.0" rx="1" fill="rgb(155,61,207)" opacity="0.2"/>
+  <rect x="152" y="125" width="31" height="3" rx="1" fill="rgb(165,66,190)" opacity="0.95"/>
+  <rect x="152" y="128"     width="31" height="1.0" rx="1" fill="rgb(165,66,190)" opacity="0.2"/>
+  <rect x="185" y="125" width="31" height="3" rx="1" fill="rgb(176,71,174)" opacity="0.95"/>
+  <rect x="185" y="128"     width="31" height="1.0" rx="1" fill="rgb(176,71,174)" opacity="0.2"/>
+  <rect x="218" y="125" width="31" height="3" rx="1" fill="rgb(186,76,158)" opacity="0.95"/>
+  <rect x="218" y="128"     width="31" height="1.0" rx="1" fill="rgb(186,76,158)" opacity="0.2"/>
+  <rect x="251" y="125" width="31" height="3" rx="1" fill="rgb(197,81,142)" opacity="0.95"/>
+  <rect x="251" y="128"     width="31" height="1.0" rx="1" fill="rgb(197,81,142)" opacity="0.2"/>
+  <rect x="284" y="125" width="31" height="3" rx="1" fill="rgb(207,85,126)" opacity="0.95"/>
+  <rect x="284" y="128"     width="31" height="1.0" rx="1" fill="rgb(207,85,126)" opacity="0.2"/>
+  <rect x="317" y="125" width="31" height="3" rx="1" fill="rgb(218,90,110)" opacity="0.95"/>
+  <rect x="317" y="128"     width="31" height="1.0" rx="1" fill="rgb(218,90,110)" opacity="0.2"/>
+  <rect x="350" y="125" width="31" height="3" rx="1" fill="rgb(229,95,93)" opacity="0.95"/>
+  <rect x="350" y="128"     width="31" height="1.0" rx="1" fill="rgb(229,95,93)" opacity="0.2"/>
+  <rect x="383" y="125" width="31" height="3" rx="1" fill="rgb(239,100,77)" opacity="0.95"/>
+  <rect x="383" y="128"     width="31" height="1.0" rx="1" fill="rgb(239,100,77)" opacity="0.2"/>
+  <rect x="416" y="125" width="31" height="3" rx="1" fill="rgb(250,105,61)" opacity="0.95"/>
+  <rect x="416" y="128"     width="31" height="1.0" rx="1" fill="rgb(250,105,61)" opacity="0.2"/>
+  <rect x="449" y="125" width="31" height="3" rx="1" fill="rgb(245,113,61)" opacity="0.95"/>
+  <rect x="449" y="128"     width="31" height="1.0" rx="1" fill="rgb(245,113,61)" opacity="0.2"/>
+  <rect x="482" y="125" width="31" height="3" rx="1" fill="rgb(224,124,77)" opacity="0.95"/>
+  <rect x="482" y="128"     width="31" height="1.0" rx="1" fill="rgb(224,124,77)" opacity="0.2"/>
+  <rect x="515" y="125" width="31" height="3" rx="1" fill="rgb(204,135,93)" opacity="0.95"/>
+  <rect x="515" y="128"     width="31" height="1.0" rx="1" fill="rgb(204,135,93)" opacity="0.2"/>
+  <rect x="548" y="125" width="31" height="3" rx="1" fill="rgb(184,146,110)" opacity="0.95"/>
+  <rect x="548" y="128"     width="31" height="1.0" rx="1" fill="rgb(184,146,110)" opacity="0.2"/>
+  <rect x="581" y="125" width="31" height="3" rx="1" fill="rgb(163,157,126)" opacity="0.95"/>
+  <rect x="581" y="128"     width="31" height="1.0" rx="1" fill="rgb(163,157,126)" opacity="0.2"/>
+  <rect x="614" y="125" width="31" height="3" rx="1" fill="rgb(143,168,142)" opacity="0.95"/>
+  <rect x="614" y="128"     width="31" height="1.0" rx="1" fill="rgb(143,168,142)" opacity="0.2"/>
+  <rect x="647" y="125" width="31" height="3" rx="1" fill="rgb(122,179,158)" opacity="0.95"/>
+  <rect x="647" y="128"     width="31" height="1.0" rx="1" fill="rgb(122,179,158)" opacity="0.2"/>
+  <rect x="680" y="125" width="31" height="3" rx="1" fill="rgb(102,190,174)" opacity="0.95"/>
+  <rect x="680" y="128"     width="31" height="1.0" rx="1" fill="rgb(102,190,174)" opacity="0.2"/>
+  <rect x="713" y="125" width="31" height="3" rx="1" fill="rgb(82,201,190)" opacity="0.95"/>
+  <rect x="713" y="128"     width="31" height="1.0" rx="1" fill="rgb(82,201,190)" opacity="0.2"/>
+  <rect x="746" y="125" width="31" height="3" rx="1" fill="rgb(61,212,207)" opacity="0.95"/>
+  <rect x="746" y="128"     width="31" height="1.0" rx="1" fill="rgb(61,212,207)" opacity="0.2"/>
+  <rect x="779" y="125" width="31" height="3" rx="1" fill="rgb(41,223,223)" opacity="0.95"/>
+  <rect x="779" y="128"     width="31" height="1.0" rx="1" fill="rgb(41,223,223)" opacity="0.2"/>
+  <rect x="812" y="125" width="31" height="3" rx="1" fill="rgb(20,234,239)" opacity="0.95"/>
+  <rect x="812" y="128"     width="31" height="1.0" rx="1" fill="rgb(20,234,239)" opacity="0.2"/>
+  <rect x="845" y="125" width="31" height="3" rx="1" fill="rgb(0,245,255)" opacity="0.95"/>
+  <rect x="845" y="128"     width="31" height="1.0" rx="1" fill="rgb(0,245,255)" opacity="0.2"/>
+</g>
+<text x="35.5" y="152" font-family="monospace" font-size="9" fill="#484F58" text-anchor="middle">DEC</text><text x="167.5" y="152" font-family="monospace" font-size="9" fill="#484F58" text-anchor="middle">JAN</text><text x="299.5" y="152" font-family="monospace" font-size="9" fill="#484F58" text-anchor="middle">FEB</text><text x="431.5" y="152" font-family="monospace" font-size="9" fill="#484F58" text-anchor="middle">MAR</text><text x="563.5" y="152" font-family="monospace" font-size="9" fill="#484F58" text-anchor="middle">APR</text><text x="695.5" y="152" font-family="monospace" font-size="9" fill="#484F58" text-anchor="middle">MAY</text><text x="827.5" y="152" font-family="monospace" font-size="9" fill="#484F58" text-anchor="middle">JUN</text>
+</svg>
