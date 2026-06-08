@@ -1,0 +1,85 @@
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B35" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#00F5FF" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B35" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#AB47BC" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00F5FF" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="260" rx="10" fill="#0D1117"/>
+  <rect x="0.5" y="0.5" width="899" height="259" rx="10"
+        fill="none" stroke="url(#borderGrad)" stroke-width="1"/>
+
+  <!-- Header -->
+  <rect width="900" height="48" rx="10" fill="url(#headerGrad)"/>
+  <rect y="10" width="900" height="38" fill="url(#headerGrad)"/>
+  <line x1="0" y1="48" x2="900" y2="48" stroke="#21262D" stroke-width="1"/>
+
+  <text x="20" y="30" font-family="monospace" font-size="14" font-weight="bold"
+        fill="#FF6B35" letter-spacing="2">NOMADDIGITA</text>
+  <text x="152" y="30" font-family="monospace" font-size="11" fill="#484F58"> · MISSION CONTROL</text>
+  <text x="864" y="30" font-family="monospace" font-size="10"
+        fill="#484F58" text-anchor="end">8 JUN 2026</text>
+  <circle cx="880" cy="24" r="4" fill="#39D353">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Dividers -->
+  <line x1="200" y1="48" x2="200" y2="260" stroke="#21262D" stroke-width="1"/>
+  <line x1="720" y1="48" x2="720" y2="260" stroke="#21262D" stroke-width="1"/>
+
+  <!-- LEFT: Metrics -->
+  <text x="20" y="70" font-family="monospace" font-size="9" fill="#484F58" letter-spacing="3">METRICS</text>
+
+  <text x="20" y="97"  font-family="monospace" font-size="9"  fill="#484F58">PUBLIC REPOS</text>
+  <text x="20" y="122" font-family="monospace" font-size="30" font-weight="bold" fill="#FF6B35">12</text>
+
+  <text x="20" y="152" font-family="monospace" font-size="9"  fill="#484F58">FOLLOWERS</text>
+  <text x="20" y="177" font-family="monospace" font-size="30" font-weight="bold" fill="#AB47BC">1</text>
+
+  <text x="20" y="207" font-family="monospace" font-size="9"  fill="#484F58">TODAY</text>
+  <text x="20" y="232" font-family="monospace" font-size="30" font-weight="bold" fill="#00F5FF">0</text>
+  <text x="20" y="252" font-family="monospace" font-size="9" fill="#484F58">COMMITS</text>
+
+  <!-- CENTER: Sparkline -->
+  <text x="230" y="70" font-family="monospace" font-size="9" fill="#484F58" letter-spacing="3">ACTIVITY · LAST 14 DAYS</text>
+  <rect x="230" y="216" width="20" height="4" rx="3" fill="#161B22"/>
+    <rect x="254" y="216" width="20" height="4" rx="3" fill="#161B22"/>
+    <rect x="278" y="216" width="20" height="4" rx="3" fill="#161B22"/>
+    <rect x="302" y="216" width="20" height="4" rx="3" fill="#161B22"/>
+    <rect x="326" y="216" width="20" height="4" rx="3" fill="#161B22"/>
+    <rect x="350" y="216" width="20" height="4" rx="3" fill="#161B22"/>
+    <rect x="374" y="216" width="20" height="4" rx="3" fill="#161B22"/>
+    <rect x="398" y="216" width="20" height="4" rx="3" fill="#161B22"/>
+    <rect x="422" y="216" width="20" height="4" rx="3" fill="#161B22"/>
+    <rect x="446" y="216" width="20" height="4" rx="3" fill="#161B22"/>
+    <rect x="470" y="216" width="20" height="4" rx="3" fill="#161B22"/>
+    <rect x="494" y="216" width="20" height="4" rx="3" fill="#161B22"/>
+    <rect x="518" y="216" width="20" height="4" rx="3" fill="#161B22"/>
+    <rect x="542" y="216" width="20" height="4" rx="3" fill="#161B22"/>
+  <text x="264" y="234" font-family="monospace" font-size="9" fill="#484F58" text-anchor="middle">M</text><text x="312" y="234" font-family="monospace" font-size="9" fill="#484F58" text-anchor="middle">W</text><text x="360" y="234" font-family="monospace" font-size="9" fill="#484F58" text-anchor="middle">F</text><text x="432" y="234" font-family="monospace" font-size="9" fill="#484F58" text-anchor="middle">M</text><text x="480" y="234" font-family="monospace" font-size="9" fill="#484F58" text-anchor="middle">W</text><text x="528" y="234" font-family="monospace" font-size="9" fill="#484F58" text-anchor="middle">F</text>
+  <text x="230" y="250" font-family="monospace" font-size="9"  fill="#484F58">ACTIVE MISSION</text>
+  <text x="230" y="266" font-family="monospace" font-size="11" fill="#FF6B35">NOMADDIGITA</text>
+
+  <!-- RIGHT: Languages -->
+  <text x="730" y="70" font-family="monospace" font-size="9" fill="#484F58" letter-spacing="3">LANGUAGES</text>
+  
+    <text x="730" y="90" font-family="monospace" font-size="10" fill="#8B949E">TYPESCRIPT</text>
+    <rect x="730" y="96" width="130" height="6" rx="3" fill="#21262D"/>
+    <rect x="730" y="96" width="65" height="6" rx="3" fill="#FF6B35"/>
+    <text x="868" y="103" font-family="monospace" font-size="10" fill="#FF6B35" text-anchor="end">50%</text>
+    <text x="730" y="130" font-family="monospace" font-size="10" fill="#8B949E">JAVASCRIPT</text>
+    <rect x="730" y="136" width="130" height="6" rx="3" fill="#21262D"/>
+    <rect x="730" y="136" width="49" height="6" rx="3" fill="#AB47BC"/>
+    <text x="868" y="143" font-family="monospace" font-size="10" fill="#AB47BC" text-anchor="end">38%</text>
+    <text x="730" y="170" font-family="monospace" font-size="10" fill="#8B949E">HTML</text>
+    <rect x="730" y="176" width="130" height="6" rx="3" fill="#21262D"/>
+    <rect x="730" y="176" width="17" height="6" rx="3" fill="#00F5FF"/>
+    <text x="868" y="183" font-family="monospace" font-size="10" fill="#00F5FF" text-anchor="end">13%</text>
+</svg>
