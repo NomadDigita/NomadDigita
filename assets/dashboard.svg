@@ -38,7 +38,7 @@
   <text x="20" y="70" font-family="monospace" font-size="9" fill="#484F58" letter-spacing="3">METRICS</text>
 
   <text x="20" y="97"  font-family="monospace" font-size="9"  fill="#484F58">PUBLIC REPOS</text>
-  <text x="20" y="122" font-family="monospace" font-size="30" font-weight="bold" fill="#FF6B35">13</text>
+  <text x="20" y="122" font-family="monospace" font-size="30" font-weight="bold" fill="#FF6B35">12</text>
 
   <text x="20" y="152" font-family="monospace" font-size="9"  fill="#484F58">FOLLOWERS</text>
   <text x="20" y="177" font-family="monospace" font-size="30" font-weight="bold" fill="#AB47BC">1</text>
@@ -72,14 +72,14 @@
   
     <text x="730" y="90" font-family="monospace" font-size="10" fill="#8B949E">TYPESCRIPT</text>
     <rect x="730" y="96" width="130" height="6" rx="3" fill="#21262D"/>
-    <rect x="730" y="96" width="73" height="6" rx="3" fill="#FF6B35"/>
-    <text x="868" y="103" font-family="monospace" font-size="10" fill="#FF6B35" text-anchor="end">56%</text>
+    <rect x="730" y="96" width="82" height="6" rx="3" fill="#FF6B35"/>
+    <text x="868" y="103" font-family="monospace" font-size="10" fill="#FF6B35" text-anchor="end">63%</text>
     <text x="730" y="130" font-family="monospace" font-size="10" fill="#8B949E">JAVASCRIPT</text>
     <rect x="730" y="136" width="130" height="6" rx="3" fill="#21262D"/>
-    <rect x="730" y="136" width="43" height="6" rx="3" fill="#AB47BC"/>
-    <text x="868" y="143" font-family="monospace" font-size="10" fill="#AB47BC" text-anchor="end">33%</text>
+    <rect x="730" y="136" width="33" height="6" rx="3" fill="#AB47BC"/>
+    <text x="868" y="143" font-family="monospace" font-size="10" fill="#AB47BC" text-anchor="end">25%</text>
     <text x="730" y="170" font-family="monospace" font-size="10" fill="#8B949E">HTML</text>
     <rect x="730" y="176" width="130" height="6" rx="3" fill="#21262D"/>
-    <rect x="730" y="176" width="14" height="6" rx="3" fill="#00F5FF"/>
-    <text x="868" y="183" font-family="monospace" font-size="10" fill="#00F5FF" text-anchor="end">11%</text>
+    <rect x="730" y="176" width="17" height="6" rx="3" fill="#00F5FF"/>
+    <text x="868" y="183" font-family="monospace" font-size="10" fill="#00F5FF" text-anchor="end">13%</text>
 </svg>
