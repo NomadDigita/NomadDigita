@@ -83,6 +83,26 @@
 
 ---
 
+## 🛡️ The Sentinel — Anomaly Detection Radar
+
+<div align="center">
+
+
+
+![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=FF3B3B&center=true&vCenter=true&width=600&lines=~%2F+sentinel+--scan+✦+computing+z-scores+across+30+days...)
+
+
+
+</div>
+
+<p align="center">
+  <img src="assets/sentinel.svg" width="100%"/>
+</p>
+
+<p align="center"><sub>Real statistical anomaly detection (z-score analysis) on commit velocity — rendered as a live radar. Not decorative. The math is real.</sub></p>
+
+---
+
 ## 🛰️ The Watcher — Autonomous Intelligence Report
 
 <div align="center">
