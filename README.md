@@ -98,9 +98,18 @@
 *An AI agent that scans every active repo every 6 hours and reports findings.*
 
 <!-- WATCHER_START -->
-> 🛰️ **Last scan:** Initializing...
+> 🛰️ **Last scan:** 27 Jun, 09:29 UTC · Monitoring 6 active repositories
 
-*The Watcher is coming online. First scan in progress.*
+*The Watcher observes steady signal across all monitored repositories. No anomalies detected.*
+
+| Repository | Stack | Status | Last Push | Stars |
+|---|---|---|---|---|
+| [NomadDigita](https://github.com/NomadDigita/NomadDigita) | Mixed | 🟢 ACTIVE TODAY | 0d ago | ⭐ 0 |
+| [mantle-agentic-core](https://github.com/NomadDigita/mantle-agentic-core) | TypeScript | 🟢 ACTIVE | 1d ago | ⭐ 1 |
+| [TradeMind-AI](https://github.com/NomadDigita/TradeMind-AI) | JavaScript | 🟢 ACTIVE | 2d ago | ⭐ 1 |
+| [Asiwaju-Trading-Hub](https://github.com/NomadDigita/Asiwaju-Trading-Hub) | TypeScript | 🟢 ACTIVE | 2d ago | ⭐ 1 |
+| [Covenant](https://github.com/NomadDigita/Covenant) | TypeScript | 🟢 ACTIVE | 2d ago | ⭐ 0 |
+| [The-Vagabond](https://github.com/NomadDigita/The-Vagabond) | Go | 🟡 COOLING | 4d ago | ⭐ 0 |
 <!-- WATCHER_END -->
 
 ---
