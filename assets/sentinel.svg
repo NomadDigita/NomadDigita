@@ -1,0 +1,100 @@
+<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <radialGradient id="radarGlow" cx="165" cy="165" r="110" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#39D353" stop-opacity="0.08"/>
+    <stop offset="100%" stop-color="#39D353" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="sweepGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#39D353" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#39D353" stop-opacity="0.6"/>
+  </linearGradient>
+  <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#FF3B3B" stop-opacity="0.5"/>
+    <stop offset="50%" stop-color="#FF6B35" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#39D353" stop-opacity="0.5"/>
+  </linearGradient>
+  <filter id="blip-glow">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="1.2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<rect width="900" height="320" rx="10" fill="#05070A"/>
+<rect x=".5" y=".5" width="899" height="319" rx="10" fill="none" stroke="url(#border)" stroke-width="1"/>
+
+<text x="20" y="26" font-family="monospace" font-size="11" font-weight="bold" fill="#39D353" letter-spacing="3">THE SENTINEL</text>
+<text x="150" y="26" font-family="monospace" font-size="10" fill="#484F58"> · BUILD-INTENSITY ANOMALY DETECTION · 30-DAY WINDOW</text>
+<text x="880" y="26" font-family="monospace" font-size="10" fill="#39D353" text-anchor="end">LEVEL: NOMINAL</text>
+<circle cx="888" cy="20" r="4" fill="#39D353">
+  <animate attributeName="opacity" values="1;0.15;1" dur="1.4s" repeatCount="indefinite"/>
+</circle>
+<line x1="0" y1="36" x2="900" y2="36" stroke="#161B22" stroke-width="1"/>
+
+<!-- RADAR -->
+<circle cx="165" cy="165" r="110" fill="url(#radarGlow)"/>
+<circle cx="165" cy="165" r="27.5" fill="none" stroke="#1C2128" stroke-width="1"/><circle cx="165" cy="165" r="55" fill="none" stroke="#1C2128" stroke-width="1"/><circle cx="165" cy="165" r="82.5" fill="none" stroke="#1C2128" stroke-width="1"/><circle cx="165" cy="165" r="110" fill="none" stroke="#1C2128" stroke-width="1"/>
+
+    <line x1="55" y1="165" x2="275" y2="165" stroke="#1C2128" stroke-width="1"/>
+    <line x1="165" y1="55" x2="165" y2="275" stroke="#1C2128" stroke-width="1"/>
+<circle cx="165" cy="165" r="110" fill="none" stroke="#21262D" stroke-width="1.5"/>
+<line x1="165" y1="165" x2="142.1" y2="57.4" stroke="url(#sweepGrad)" stroke-width="2"/>
+<g filter="url(#blip-glow)">
+  <circle cx="165.0" cy="153.0" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="167.5" cy="153.3" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="169.9" cy="154.0" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="172.1" cy="155.3" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="173.9" cy="157.0" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="175.4" cy="159.0" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="176.4" cy="161.3" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="176.9" cy="163.7" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="176.9" cy="166.3" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="176.4" cy="168.7" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="175.4" cy="171.0" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="173.9" cy="173.0" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="172.1" cy="174.7" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="169.9" cy="176.0" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="167.5" cy="176.7" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="165.0" cy="177.0" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="162.5" cy="176.7" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="160.1" cy="176.0" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="157.9" cy="174.7" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="156.1" cy="173.0" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="154.6" cy="171.0" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="153.6" cy="168.7" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="153.1" cy="166.3" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="153.1" cy="163.7" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="153.6" cy="161.3" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="154.6" cy="159.0" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="156.1" cy="157.0" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="157.9" cy="155.3" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="160.1" cy="154.0" r="2" fill="#21262D" opacity="0.3"/>
+  <circle cx="162.5" cy="153.3" r="2" fill="#21262D" opacity="0.3"/>
+</g>
+<circle cx="165" cy="165" r="3" fill="#39D353"/>
+<text x="165" y="297" font-family="monospace" font-size="9" fill="#484F58" text-anchor="middle">30 DAYS · ROTATING WINDOW</text>
+
+<!-- DIVIDER -->
+<line x1="330" y1="46" x2="330" y2="310" stroke="#161B22" stroke-width="1"/>
+
+<!-- METRICS PANEL -->
+<text x="350" y="58" font-family="monospace" font-size="9" fill="#484F58" letter-spacing="2">SIGNAL ANALYSIS</text>
+<text x="350" y="75" font-family="monospace" font-size="10" fill="#8B949E">Mean velocity:</text>
+<text x="560" y="75" font-family="monospace" font-size="10" fill="#39D353">0.00 commits/day</text>
+
+<line x1="350" y1="82" x2="650" y2="82" stroke="#161B22" stroke-width="1"/>
+
+<text x="350" y="95" font-family="monospace" font-size="9" fill="#484F58" letter-spacing="2" opacity="0">.</text>
+
+<text x="350" y="93" font-family="monospace" font-size="9" fill="#484F58" letter-spacing="2">ANOMALY LOG (|z| > 1.8)</text>
+<text x="350" y="95" font-family="monospace" font-size="10" fill="#484F58">No statistical anomalies in window.</text>
+
+<line x1="350" y1="122" x2="650" y2="122" stroke="#161B22" stroke-width="1"/>
+
+<text x="350" y="270" font-family="monospace" font-size="9" fill="#484F58">Today's z-score:</text>
+<text x="560" y="270" font-family="monospace" font-size="11" font-weight="bold" fill="#39D353">0.00σ</text>
+
+<text x="350" y="290" font-family="monospace" font-size="9" fill="#484F58">7-day trend:</text>
+<text x="560" y="290" font-family="monospace" font-size="11" font-weight="bold" fill="#39D353">+0.00σ</text>
+
+<text x="350" y="310" font-family="monospace" font-size="9" fill="#484F58">Statistical anomalies detected: 0 / 30 days</text>
+</svg>

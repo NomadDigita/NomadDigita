@@ -1,0 +1,32 @@
+<svg width="900" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#FF6B35" stop-opacity="0.7"/>
+    <stop offset="50%" stop-color="#39D353" stop-opacity="0.7"/>
+    <stop offset="100%" stop-color="#00F5FF" stop-opacity="0.7"/>
+  </linearGradient>
+  <filter id="glow">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<rect width="900" height="180" rx="10" fill="#0D1117"/>
+<rect x=".5" y=".5" width="899" height="179" rx="10" fill="none" stroke="url(#border)" stroke-width="1"/>
+
+<text x="20" y="26" font-family="monospace" font-size="11" font-weight="bold" fill="#FF6B35" letter-spacing="3">THE PULSE</text>
+<text x="120" y="26" font-family="monospace" font-size="10" fill="#484F58"> · LIVE VITAL SIGNS · LAST 24 HOURS</text>
+
+<circle cx="870" cy="22" r="5" fill="#484F58">
+  
+</circle>
+<text x="855" y="26" font-family="monospace" font-size="10" fill="#484F58" text-anchor="end">RESTING</text>
+
+<line x1="20" y1="48" x2="880" y2="48" stroke="#21262D" stroke-width="1"/>
+
+<path d="M 20 100 L 20.0 100 L 57.4 100 L 94.8 100 L 132.2 100 L 169.6 100 L 207.0 100 L 244.3 100 L 281.7 100 L 319.1 100 L 356.5 100 L 393.9 100 L 431.3 100 L 468.7 100 L 506.1 100 L 543.5 100 L 580.9 100 L 618.3 100 L 655.7 100 L 693.0 100 L 730.4 100 L 767.8 100 L 805.2 100 L 842.6 100 L 880.0 100 L 880 100" fill="none" stroke="#484F58" stroke-width="2" filter="url(#glow)"/>
+
+<text x="20" y="166" font-family="monospace" font-size="9" fill="#484F58">0 commits today</text>
+<text x="450" y="166" font-family="monospace" font-size="9" fill="#484F58" text-anchor="middle">BUILD RATE: 0 BPM</text>
+<text x="880" y="166" font-family="monospace" font-size="9" fill="#484F58" text-anchor="end">SCAN: 10:13 UTC</text>
+</svg>
