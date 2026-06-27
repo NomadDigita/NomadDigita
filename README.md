@@ -193,9 +193,9 @@ The Architect considers the point, unmoved.
 *An AI that studies commit patterns and predicts what gets built next. Updated weekly.*
 
 <!-- ORACLE_START -->
-> 🔮 **Forecast generated:** Initializing...
+> 🔮 **Forecast generated:** 27 June 2026 · Based on 0 recent signals
 
-*The Oracle is calibrating. First prediction arrives Monday.*
+*The signs point to deeper onchain automation ahead — likely an expansion of agentic infrastructure across multiple chains. Confidence: 60%*
 <!-- ORACLE_END -->
 
 ---
