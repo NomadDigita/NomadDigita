@@ -34,6 +34,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node .github/scripts/frequency.js
 
+      - name: Generate Pulse
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/pulse.js
+
       - name: Commit All Assets
         run: |
           git config user.email "action@github.com"
