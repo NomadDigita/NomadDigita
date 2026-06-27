@@ -19,9 +19,10 @@ function githubAPI(path) {
 
 async function main() {
   const events = await githubAPI(`/users/${USERNAME}/events?per_page=100`);
-  const pushEvents = (Array.isArray(events) ? events : []).filter(e => e.type === 'PushEvent');
+  const pushEvents = (Array.isArray(events) ? events : []).filter(e => e && e.type === 'PushEvent');
 
-  // Last 24 hours, hourly buckets
+  console.log(`Found ${pushEvents.length} push events total`);
+
   const now = new Date();
   const hours = Array.from({ length: 24 }, (_, i) => {
     const hourStart = new Date(now.getTime() - (23 - i) * 3600000);
@@ -39,7 +40,6 @@ async function main() {
   const midY = 100;
   const amp = 60;
 
-  // Build EKG-style path: flat line with spikes on commit hours
   let path = `M ${PL} ${midY}`;
   const stepX = plotW / (hours.length - 1);
 
@@ -58,11 +58,12 @@ async function main() {
   path += ` L ${PL + plotW} ${midY}`;
 
   const totalCommitsToday = hours.reduce((a, b) => a + b, 0);
-  const lastActiveHour = hours.lastIndexOf(Math.max(...hours.filter(h => h > 0), 0));
   const isAlive = totalCommitsToday > 0;
-  const bpm = isAlive ? 60 + totalCommitsToday * 8 : 0;
+  const bpm = isAlive ? 60 + totalCommitsToday * 8 : 42;
 
-  const pulseColor = isAlive ? '#39D353' : '#484F58';
+  // Color always visible — never matches background
+  const pulseColor = isAlive ? '#39D353' : '#3D4450';
+  const baselineOpacity = isAlive ? 1 : 0.7;
 
   const svg = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">
 <defs>
@@ -90,7 +91,10 @@ async function main() {
 
 <line x1="20" y1="48" x2="${W-20}" y2="48" stroke="#21262D" stroke-width="1"/>
 
-<path d="${path}" fill="none" stroke="${pulseColor}" stroke-width="2" filter="url(#glow)"/>
+<!-- Grid reference lines so the flatline is never invisible -->
+<line x1="20" y1="${midY}" x2="${W-20}" y2="${midY}" stroke="#1C2128" stroke-width="1"/>
+
+<path d="${path}" fill="none" stroke="${pulseColor}" stroke-width="2.5" filter="url(#glow)" opacity="${baselineOpacity}"/>
 
 <text x="20" y="${H-14}" font-family="monospace" font-size="9" fill="#484F58">${totalCommitsToday} commits today</text>
 <text x="${W/2}" y="${H-14}" font-family="monospace" font-size="9" fill="#484F58" text-anchor="middle">BUILD RATE: ${bpm} BPM</text>
@@ -99,7 +103,7 @@ async function main() {
 
   fs.mkdirSync('assets', { recursive: true });
   fs.writeFileSync('assets/pulse.svg', svg);
-  console.log(`✅ Pulse: ${totalCommitsToday} commits today, ${bpm} BPM`);
+  console.log(`✅ Pulse: ${totalCommitsToday} commits today, ${bpm} BPM, alive=${isAlive}`);
 }
 
 main().catch(e => { console.error(e.message); process.exit(1); });
