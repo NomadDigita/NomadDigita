@@ -65,6 +65,68 @@
 
 ---
 
+## 💓 The Pulse — Live Vital Signs
+
+<div align="center">
+
+
+
+![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=39D353&center=true&vCenter=true&width=600&lines=~%2F+monitor+--vitals+✦+reading+heartbeat...)
+
+
+
+</div>
+
+<p align="center">
+  <img src="assets/pulse.svg" width="100%"/>
+</p>
+
+---
+
+## 🛰️ The Watcher — Autonomous Intelligence Report
+
+<div align="center">
+
+
+
+![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=FF6B35&center=true&vCenter=true&width=600&lines=~%2F+surveillance+--all-repos+✦+scanning...)
+
+
+
+</div>
+
+*An AI agent that scans every active repo every 6 hours and reports findings.*
+
+<!-- WATCHER_START -->
+> 🛰️ **Last scan:** Initializing...
+
+*The Watcher is coming online. First scan in progress.*
+<!-- WATCHER_END -->
+
+---
+
+## 🔮 The Oracle — Predictive Forecast
+
+<div align="center">
+
+
+
+![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=AB47BC&center=true&vCenter=true&width=600&lines=~%2F+predict+--next-build+✦+analyzing+patterns...)
+
+
+
+</div>
+
+*An AI that studies commit patterns and predicts what gets built next. Updated weekly.*
+
+<!-- ORACLE_START -->
+> 🔮 **Forecast generated:** Initializing...
+
+*The Oracle is calibrating. First prediction arrives Monday.*
+<!-- ORACLE_END -->
+
+---
+
 ## 📡 Live Transmission
 
 <div align="center">
@@ -78,9 +140,9 @@
 </div>
 
 <!-- DEVLOG_START -->
-> 🤖 **Gemini AI wrote this** · 27 June 2026
+> 🤖 **Gemini AI wrote this** · Initializing...
 
-*The Digital Vagabond is deep in the codebase — dev log updating...*
+*The Digital Vagabond is booting up the dev log — check back tomorrow.*
 <!-- DEVLOG_END -->
 
 ---
@@ -304,13 +366,7 @@ Proving that great developer experience starts with the interface people already
 </div>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=NomadDigita&theme=radical&hide_border=true&background=0D1117&ring=FF6B35&fire=FF6B35&currStreakLabel=FF6B35&sideLabels=AB47BC&dates=888888" width="60%"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NomadDigita&theme=radical" width="32%"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NomadDigita&theme=radical" width="32%"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NomadDigita&theme=radical" width="32%"/>
+  <img src="https://streak-stats.demolab.com?user=NomadDigita&theme=radical&hide_border=true&background=0D1117&ring=FF6B35&fire=FF6B35&currStreakLabel=FF6B35&sideLabels=AB47BC&dates=888888" width="65%"/>
 </p>
 
 <p align="center">
@@ -349,42 +405,21 @@ Proving that great developer experience starts with the interface people already
   <img src="assets/frequency.svg" width="100%"/>
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NomadDigita/NomadDigita/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NomadDigita/NomadDigita/output/github-contribution-grid-snake.svg"/>
-  <img alt="github-snake" src="https://raw.githubusercontent.com/NomadDigita/NomadDigita/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-</picture>
-
----
-
-## 📜 The Chronicles
-
 <div align="center">
 
 
 
-![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=FFD700&center=true&vCenter=true&width=600&lines=~%2F+cat+chronicles.log+✦+the+story+so+far...)
+![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=4CAF50&center=true&vCenter=true&width=500&lines=~%2F+snake+--eat+contributions+✦+the+grid+is+alive...)
 
 
 
 </div>
 
-*An auto-written record of the build — updated every Sunday by Gemini AI.*
-
-<!-- CHRONICLES_START -->
-### ◈ Week 25 · 2026 · 21 June 2026
-
-*The vagabond was silent this week.*
-<!-- CHRONICLE_ENTRY -->
-### ◈ Week 24 · 2026 · 14 June 2026
-
-*The vagabond was silent this week.*
-<!-- CHRONICLE_ENTRY -->
-### ◈ Week 23 · 2026 · 8 June 2026
-
-*The vagabond was silent this week.*
-<!-- CHRONICLE_ENTRY -->
-<!-- CHRONICLES_END -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NomadDigita/NomadDigita/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NomadDigita/NomadDigita/output/github-contribution-grid-snake.svg"/>
+  <img alt="github-snake" src="https://raw.githubusercontent.com/NomadDigita/NomadDigita/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+</picture>
 
 ---
 
@@ -418,6 +453,25 @@ Proving that great developer experience starts with the interface people already
 
 ---
 
+## 📜 The Chronicles
+
+<div align="center">
+
+
+
+![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=FFD700&center=true&vCenter=true&width=600&lines=~%2F+cat+chronicles.log+✦+the+story+so+far...)
+
+
+
+</div>
+
+*An auto-written record of the build — updated every Sunday by Gemini AI.*
+
+<!-- CHRONICLES_START -->
+<!-- CHRONICLES_END -->
+
+---
+
 ## 📡 Transmission Frequency
 
 <p align="center">
@@ -439,5 +493,3 @@ Proving that great developer experience starts with the interface people already
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=80&section=footer" width="100%"/>
-
----
