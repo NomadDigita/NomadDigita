@@ -17,16 +17,19 @@
 <text x="20" y="26" font-family="monospace" font-size="11" font-weight="bold" fill="#FF6B35" letter-spacing="3">THE PULSE</text>
 <text x="120" y="26" font-family="monospace" font-size="10" fill="#484F58"> · LIVE VITAL SIGNS · LAST 24 HOURS</text>
 
-<circle cx="870" cy="22" r="5" fill="#484F58">
+<circle cx="870" cy="22" r="5" fill="#3D4450">
   
 </circle>
-<text x="855" y="26" font-family="monospace" font-size="10" fill="#484F58" text-anchor="end">RESTING</text>
+<text x="855" y="26" font-family="monospace" font-size="10" fill="#3D4450" text-anchor="end">RESTING</text>
 
 <line x1="20" y1="48" x2="880" y2="48" stroke="#21262D" stroke-width="1"/>
 
-<path d="M 20 100 L 20.0 100 L 57.4 100 L 94.8 100 L 132.2 100 L 169.6 100 L 207.0 100 L 244.3 100 L 281.7 100 L 319.1 100 L 356.5 100 L 393.9 100 L 431.3 100 L 468.7 100 L 506.1 100 L 543.5 100 L 580.9 100 L 618.3 100 L 655.7 100 L 693.0 100 L 730.4 100 L 767.8 100 L 805.2 100 L 842.6 100 L 880.0 100 L 880 100" fill="none" stroke="#484F58" stroke-width="2" filter="url(#glow)"/>
+<!-- Grid reference lines so the flatline is never invisible -->
+<line x1="20" y1="100" x2="880" y2="100" stroke="#1C2128" stroke-width="1"/>
+
+<path d="M 20 100 L 20.0 100 L 57.4 100 L 94.8 100 L 132.2 100 L 169.6 100 L 207.0 100 L 244.3 100 L 281.7 100 L 319.1 100 L 356.5 100 L 393.9 100 L 431.3 100 L 468.7 100 L 506.1 100 L 543.5 100 L 580.9 100 L 618.3 100 L 655.7 100 L 693.0 100 L 730.4 100 L 767.8 100 L 805.2 100 L 842.6 100 L 880.0 100 L 880 100" fill="none" stroke="#3D4450" stroke-width="2.5" filter="url(#glow)" opacity="0.7"/>
 
 <text x="20" y="166" font-family="monospace" font-size="9" fill="#484F58">0 commits today</text>
-<text x="450" y="166" font-family="monospace" font-size="9" fill="#484F58" text-anchor="middle">BUILD RATE: 0 BPM</text>
-<text x="880" y="166" font-family="monospace" font-size="9" fill="#484F58" text-anchor="end">SCAN: 19:00 UTC</text>
+<text x="450" y="166" font-family="monospace" font-size="9" fill="#484F58" text-anchor="middle">BUILD RATE: 42 BPM</text>
+<text x="880" y="166" font-family="monospace" font-size="9" fill="#484F58" text-anchor="end">SCAN: 02:10 UTC</text>
 </svg>
