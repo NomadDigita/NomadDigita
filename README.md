@@ -464,6 +464,9 @@ When DeFi needed a shield — AI-powered rug pull detection before you lose ever
 | Signal | From | Message | Date |
 |--------|------|---------|------|
 <!-- SIGNALS_LOG -->
+| [#2](https://github.com/NomadDigita/NomadDigita/issues/2) | **NomadDigita** | *### Your Message
+
+What are you building next?* | 28 Jun |
 
 </div>
 
