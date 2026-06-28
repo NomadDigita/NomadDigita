@@ -378,53 +378,6 @@ When DeFi needed a shield — AI-powered rug pull detection before you lose ever
 <tr>
 <td width="50%" valign="top"><br/>
 
-**[🤖 BuildersBot](https://github.com/NomadDigita/BuildersBot)**
-
-When the Web3 builders community needed automation — handles the noise so humans can build.
-
-
-
-![](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-
-
-
-![](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)
-
-
-
-
-![](https://img.shields.io/github/last-commit/NomadDigita/BuildersBot?style=flat-square&color=FF6B35&labelColor=0D1117&label=last+push)
-
-
-
-<br/></td>
-<td width="50%" valign="top"><br/>
-
-**[🐾 Furwhisk-telegram-bot](https://github.com/NomadDigita/Furwhisk-telegram-bot)**
-
-Proving that great developer experience starts with the interface people already live inside.
-
-
-
-![](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-
-
-
-![](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)
-
-
-
-
-![](https://img.shields.io/github/last-commit/NomadDigita/Furwhisk-telegram-bot?style=flat-square&color=FF6B35&labelColor=0D1117&label=last+push)
-
-
-
-<br/></td>
-</tr>
-</table>
-
 ---
 
 ## ◈ The Manifest
