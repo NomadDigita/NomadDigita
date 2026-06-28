@@ -118,9 +118,9 @@
 *An AI agent that scans every active repo every 6 hours and reports findings.*
 
 <!-- WATCHER_START -->
-> 🛰️ **Last scan:** 28 Jun, 12:20 UTC · Monitoring 6 active repositories
+> 🛰️ **Last scan:** 28 Jun, 13:39 UTC · Monitoring 6 active repositories
 
-*Surveillance report: The subject*
+*Observation of Subject's recent activity indicates*
 
 | Repository | Stack | Status | Last Push | Stars |
 |---|---|---|---|---|
@@ -129,7 +129,7 @@
 | [mantle-agentic-core](https://github.com/NomadDigita/mantle-agentic-core) | TypeScript | 🟢 ACTIVE | 2d ago | ⭐ 1 |
 | [TradeMind-AI](https://github.com/NomadDigita/TradeMind-AI) | JavaScript | 🟢 ACTIVE | 3d ago | ⭐ 1 |
 | [Asiwaju-Trading-Hub](https://github.com/NomadDigita/Asiwaju-Trading-Hub) | TypeScript | 🟢 ACTIVE | 3d ago | ⭐ 1 |
-| [Covenant](https://github.com/NomadDigita/Covenant) | TypeScript | 🟢 ACTIVE | 3d ago | ⭐ 0 |
+| [Covenant](https://github.com/NomadDigita/Covenant) | TypeScript | 🟡 COOLING | 4d ago | ⭐ 0 |
 <!-- WATCHER_END -->
 
 ---
