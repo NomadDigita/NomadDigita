@@ -464,6 +464,9 @@ When DeFi needed a shield — AI-powered rug pull detection before you lose ever
 | Signal | From | Message | Date |
 |--------|------|---------|------|
 <!-- SIGNALS_LOG -->
+| [#3](https://github.com/NomadDigita/NomadDigita/issues/3) | **NomadDigita** | *### Your Message
+
+What should I know about Wagmi?* | 28 Jun |
 | [#2](https://github.com/NomadDigita/NomadDigita/issues/2) | **NomadDigita** | *### Your Message
 
 What are you building next?* | 28 Jun |
