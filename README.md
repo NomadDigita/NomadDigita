@@ -193,9 +193,9 @@
 *An AI that studies commit patterns and predicts what gets built next. Updated weekly.*
 
 <!-- ORACLE_START -->
-> 🔮 **Forecast generated:** 28 June 2026 · Based on 0 recent signals
+> 🔮 **Forecast generated:** 29 June 2026 · Based on 0 recent signals
 
-*The signs point to NomadDigita*
+*The signs point to NomadDigita architect*
 <!-- ORACLE_END -->
 
 ---
