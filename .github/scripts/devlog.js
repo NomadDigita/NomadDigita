@@ -57,7 +57,7 @@ Write ONLY the 2 sentences. Nothing else.`;
 
   const body = JSON.stringify({
     contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: { maxOutputTokens: 150, temperature: 0.8 }
+    generationConfig: { maxOutputTokens: 300, temperature: 0.8 }
   });
 
   return new Promise((resolve, reject) => {
