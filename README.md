@@ -152,7 +152,7 @@
 > 🧠 **Session convened:** 29 June 2026 · 5 AI specialists reviewed 5 active repositories
 
 **🏛️ The Architect**
-The fragmented collection
+🏛️ The Architect found no signal this cycle — will reassess next session.
 
 **🛡️ The Auditor**
 🛡️ The Auditor found no signal this cycle — will reassess next session.
@@ -167,7 +167,7 @@ The Architect is still weighing the point.
 📖 The Scribe found no signal this cycle — will reassess next session.
 
 **🔭 The Scout**
-Whoa, Nomad
+🔭 The Scout found no signal this cycle — will reassess next session.
 
 <sub>Next session: automatically convened weekly · All opinions generated live by AI, reviewing real repo data</sub>
 <!-- COLLECTIVE_END -->
