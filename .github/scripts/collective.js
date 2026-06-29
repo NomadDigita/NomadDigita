@@ -24,7 +24,7 @@ function gemini(systemContext, prompt) {
   const fullPrompt = `${systemContext}\n\n${prompt}`;
   const body = JSON.stringify({
     contents: [{ parts: [{ text: fullPrompt }] }],
-    generationConfig: { maxOutputTokens: 250, temperature: 0.7 }
+    generationConfig: { maxOutputTokens: 500, temperature: 0.5 }
   });
   return new Promise(resolve => {
     const req = https.request({
