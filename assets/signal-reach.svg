@@ -1,0 +1,20 @@
+<svg width="900" height="160" viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#00F5FF" stop-opacity="0.6"/>
+    <stop offset="100%" stop-color="#AB47BC" stop-opacity="0.6"/>
+  </linearGradient>
+</defs>
+<rect width="900" height="160" rx="10" fill="#0D1117"/>
+<rect x=".5" y=".5" width="899" height="159" rx="10" fill="none" stroke="url(#border)" stroke-width="1"/>
+
+<text x="20" y="26" font-family="monospace" font-size="11" font-weight="bold" fill="#00F5FF" letter-spacing="3">SIGNAL REACH</text>
+<text x="155" y="26" font-family="monospace" font-size="10" fill="#484F58"> · PROFILE VIEW VELOCITY</text>
+<text x="880" y="26" font-family="monospace" font-size="10" fill="#39D353" text-anchor="end">+0 since last scan</text>
+<line x1="0" y1="36" x2="900" y2="36" stroke="#21262D" stroke-width="1"/>
+
+<polyline points="20.0,130.0" fill="none" stroke="#00F5FF" stroke-width="2"/>
+
+<text x="20" y="148" font-family="monospace" font-size="9" fill="#484F58">Total views: 308</text>
+<text x="880" y="148" font-family="monospace" font-size="9" fill="#484F58" text-anchor="end">1 samples tracked</text>
+</svg>
