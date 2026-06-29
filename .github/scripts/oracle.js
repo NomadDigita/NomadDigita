@@ -21,7 +21,7 @@ function githubAPI(path) {
 function gemini(prompt) {
   const body = JSON.stringify({
     contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: { maxOutputTokens: 300, temperature: 0.7 }
+    generationConfig: { maxOutputTokens: 400, temperature: 0.6 }
   });
   return new Promise(resolve => {
     const req = https.request({
