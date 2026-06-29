@@ -246,7 +246,7 @@ The Architect is still weighing the point.
 <!-- ORACLE_START -->
 > 🔮 **Forecast generated:** 29 June 2026 · Based on 0 recent signals
 
-*The signs point to a sophisticated, multi-chain AI*
+*The signs point to deeper onchain automation ahead — likely an expansion of agentic infrastructure across multiple chains. Confidence: 60%*
 <!-- ORACLE_END -->
 
 ---
