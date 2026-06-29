@@ -218,7 +218,7 @@ The Architect is still weighing the point.
 
 | Achievement | Requirement | Progress | Raw |
 |---|---|---|---|
-| 🦈 **Pull Shark** | Merge pull requests | `██████████` 100% | 2/2 |
+| 🦈 **Pull Shark** | Merge pull requests | `██████████` 100% | 3/2 |
 | ⚡ **Quickdraw** | Merge PR within 5 min of opening | `░░░░░░░░░░` 0% | 0/1 |
 | 👥 **Pair Extraordinaire** | Co-authored commit detected | `░░░░░░░░░░` 0% | 0/1 |
 | 🎯 **YOLO** | Merge without review (heuristic) | `██████████` 100% | 1/1 |
