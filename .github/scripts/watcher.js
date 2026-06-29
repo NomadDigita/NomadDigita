@@ -77,16 +77,25 @@ async function main() {
     });
   }
 
+  // Cross-link: find repo closest to Starstruck achievement (16 stars)
+  const sortedByStars = [...intelligence].sort((a, b) => b.stars - a.stars);
+  const closestToStarstruck = sortedByStars[0];
+  const achievementHint = closestToStarstruck
+    ? `\n> 🎯 **Achievement watch:** [${closestToStarstruck.name}](https://github.com/${USERNAME}/${closestToStarstruck.name}) is closest to **Starstruck** (${closestToStarstruck.stars}/16 stars).`
+    : '';
+
   // AI threat/opportunity assessment
-  const reportPrompt = `You are "The Watcher" — an autonomous AI system monitoring NomadDigita's (Asiwaju, "The Digital Vagabond") GitHub repos. 
+  const reportPrompt = `You are "The Watcher" — an autonomous AI system monitoring NomadDigita's (Asiwaju, "The Digital Vagabond") GitHub repos.
 
 Here is the current state of his 6 most recently active repos:
 ${intelligence.map(r => `- ${r.name} (${r.language}, ${r.status}, ${r.stars} stars): recent commits — ${r.commitList}`).join('\n')}
 
-Write a SHORT intelligence briefing (max 3 sentences) as if you are a surveillance AI reporting findings. Identify ONE thing going well and ONE thing that needs attention. Be sharp, technical, slightly ominous but supportive. Speak in third person about "the subject" or "the builder."`;
+Write a SHORT intelligence briefing (max 3 sentences) as if you are a surveillance AI reporting findings. Identify ONE thing going well and ONE thing that needs attention. Be sharp, technical, slightly ominous but supportive. Speak in third person about "the subject" or "the builder." End every sentence with proper punctuation.`;
 
-  const briefing = await gemini(reportPrompt, 200) ||
-    'The Watcher observes steady signal across all monitored repositories. No anomalies detected.';
+  let briefing = await gemini(reportPrompt, 250);
+  if (!briefing || briefing.length < 20) {
+    briefing = 'The Watcher observes steady signal across all monitored repositories. No anomalies detected.';
+  }
 
   const now = new Date();
   const timestamp = now.toLocaleString('en-GB', {
@@ -101,6 +110,7 @@ Write a SHORT intelligence briefing (max 3 sentences) as if you are a surveillan
 > 🛰️ **Last scan:** ${timestamp} UTC · Monitoring ${intelligence.length} active repositories
 
 *${briefing}*
+${achievementHint}
 
 | Repository | Stack | Status | Last Push | Stars |
 |---|---|---|---|---|
