@@ -103,6 +103,26 @@
 
 ---
 
+## 🔐 The Vault — Live Security & Tech-Debt Score
+
+<div align="center">
+
+
+
+![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=39D353&center=true&vCenter=true&width=600&lines=~%2F+vault+--audit+✦+scanning+for+real+risk...)
+
+
+
+</div>
+
+<p align="center">
+  <img src="assets/vault.svg" width="100%"/>
+</p>
+
+<p align="center"><sub>Live scan of real repo contents for exposed .env files, dependency staleness, and TODO debt — never simulated.</sub></p>
+
+---
+
 ## 🛰️ The Watcher — Autonomous Intelligence Report
 
 <div align="center">
@@ -115,23 +135,12 @@
 
 </div>
 
-*An AI agent that scans every active repo every 6 hours and reports findings.*
+*An AI agent that scans every active repo every 6 hours and reports findings — now cross-referencing live achievement progress.*
 
 <!-- WATCHER_START -->
-> 🛰️ **Last scan:** 29 Jun, 21:18 UTC · Monitoring 6 active repositories
+> 🛰️ **Last scan:** Initializing...
 
-*Surveillance report initiated: The subject, NomadDig*
-
-> 🎯 **Achievement watch:** [NomadDigita](https://github.com/NomadDigita/NomadDigita) is closest to **Starstruck** (4/16 stars).
-
-| Repository | Stack | Status | Last Push | Stars |
-|---|---|---|---|---|
-| [NomadDigita](https://github.com/NomadDigita/NomadDigita) | JavaScript | 🟢 ACTIVE TODAY | 0d ago | ⭐ 4 |
-| [RugGuard-AI](https://github.com/NomadDigita/RugGuard-AI) | JavaScript | 🟢 ACTIVE TODAY | 0d ago | ⭐ 4 |
-| [BuildersBot](https://github.com/NomadDigita/BuildersBot) | JavaScript | 🟢 ACTIVE TODAY | 0d ago | ⭐ 4 |
-| [mantle-agentic-core](https://github.com/NomadDigita/mantle-agentic-core) | TypeScript | 🟢 ACTIVE TODAY | 0d ago | ⭐ 4 |
-| [AutonomousSmartMoneyTracker](https://github.com/NomadDigita/AutonomousSmartMoneyTracker) | TypeScript | 🟢 ACTIVE | 1d ago | ⭐ 4 |
-| [TradeMind-AI](https://github.com/NomadDigita/TradeMind-AI) | JavaScript | 🟡 COOLING | 4d ago | ⭐ 4 |
+*The Watcher is coming online. First scan in progress.*
 <!-- WATCHER_END -->
 
 ---
@@ -151,27 +160,9 @@
 *Five distinct AI personas — Architect, Auditor, Optimizer, Scribe, Scout — independently review the codebase and respond to each other. Real debate, real data, weekly.*
 
 <!-- COLLECTIVE_START -->
-> 🧠 **Session convened:** 29 June 2026 · 5 AI specialists reviewed 5 active repositories
+> 🧠 **Session convened:** Initializing...
 
-**🏛️ The Architect**
-🏛️ The Architect found no signal this cycle — will reassess next session.
-
-**🛡️ The Auditor**
-🛡️ The Auditor found no signal this cycle — will reassess next session.
-
-**🏛️ The Architect** *(responding)*
-The Architect is still weighing the point.
-
-**⚡ The Optimizer**
-⚡ The Optimizer found no signal this cycle — will reassess next session.
-
-**📖 The Scribe**
-📖 The Scribe found no signal this cycle — will reassess next session.
-
-**🔭 The Scout**
-🔭 The Scout found no signal this cycle — will reassess next session.
-
-<sub>Next session: automatically convened weekly · All opinions generated live by AI, reviewing real repo data</sub>
+*The Collective is assembling. First session begins shortly.*
 <!-- COLLECTIVE_END -->
 
 ---
@@ -191,20 +182,9 @@ The Architect is still weighing the point.
 *An agent that reviews real repos weekly, opens genuinely useful self-review issues, and tracks real GitHub achievement progress — every number below is live, never simulated.*
 
 <!-- ACHIEVEMENT_START -->
-> 🏆 **Last cycle:** 29 June 2026 · No new issues needed this cycle
-> All progress below verified live against the GitHub API — zero mock data.
+> 🏆 **Last cycle:** Initializing...
 
-
-
-| Achievement | Requirement | Progress | Raw |
-|---|---|---|---|
-| 🦈 **Pull Shark** | Merge pull requests | `██████████` 100% | 2/2 |
-| ⚡ **Quickdraw** | Merge PR within 5 min of opening | `░░░░░░░░░░` 0% | 0/1 |
-| 👥 **Pair Extraordinaire** | Co-authored commit detected | `░░░░░░░░░░` 0% | 0/1 |
-| 🎯 **YOLO** | Merge without review (heuristic) | `██████████` 100% | 1/1 |
-| ⭐ **Starstruck** | 16+ stars on a single repo | `██████░░░░` 63% | 10/16 |
-
-<sub>Every metric above is computed live from real PRs, commits, and stars at scan time — not simulated.</sub>
+*The Achievement Engine is calibrating its first pass.*
 <!-- ACHIEVEMENT_END -->
 
 ---
@@ -224,9 +204,9 @@ The Architect is still weighing the point.
 *An AI that studies commit patterns and predicts what gets built next. Updated weekly.*
 
 <!-- ORACLE_START -->
-> 🔮 **Forecast generated:** 29 June 2026 · Based on 0 recent signals
+> 🔮 **Forecast generated:** Initializing...
 
-*The signs point to deeper onchain automation ahead — likely an expansion of agentic infrastructure across multiple chains. Confidence: 60%*
+*The Oracle is calibrating. First prediction arrives Monday.*
 <!-- ORACLE_END -->
 
 ---
@@ -244,9 +224,9 @@ The Architect is still weighing the point.
 </div>
 
 <!-- DEVLOG_START -->
-> 🤖 **Gemini AI wrote this** · 29 June 2026
+> 🤖 **Gemini AI wrote this** · Initializing...
 
-*No commits today, but my brain is on fire, architect*
+*The Digital Vagabond is booting up the dev log — check back tomorrow.*
 <!-- DEVLOG_END -->
 
 ---
@@ -504,12 +484,6 @@ When DeFi needed a shield — AI-powered rug pull detection before you lose ever
 | Signal | From | Message | Date |
 |--------|------|---------|------|
 <!-- SIGNALS_LOG -->
-| [#3](https://github.com/NomadDigita/NomadDigita/issues/3) | **NomadDigita** | *### Your Message
-
-What should I know about Wagmi?* | 28 Jun |
-| [#2](https://github.com/NomadDigita/NomadDigita/issues/2) | **NomadDigita** | *### Your Message
-
-What are you building next?* | 28 Jun |
 
 </div>
 
@@ -531,6 +505,26 @@ What are you building next?* | 28 Jun |
 
 <!-- CHRONICLES_START -->
 <!-- CHRONICLES_END -->
+
+---
+
+## 📶 Signal Reach — Visitor Velocity
+
+<div align="center">
+
+
+
+![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=00F5FF&center=true&vCenter=true&width=600&lines=~%2F+track+--reach+✦+measuring+signal+velocity...)
+
+
+
+</div>
+
+<p align="center">
+  <img src="assets/signal-reach.svg" width="100%"/>
+</p>
+
+<p align="center"><sub>Tracks public view-counter deltas over time — no IP tracking, fully privacy-safe, built from real samples.</sub></p>
 
 ---
 
