@@ -10,11 +10,11 @@
 
 <text x="20" y="26" font-family="monospace" font-size="11" font-weight="bold" fill="#00F5FF" letter-spacing="3">SIGNAL REACH</text>
 <text x="155" y="26" font-family="monospace" font-size="10" fill="#484F58"> · PROFILE VIEW VELOCITY</text>
-<text x="880" y="26" font-family="monospace" font-size="10" fill="#39D353" text-anchor="end">+2 since last scan</text>
+<text x="880" y="26" font-family="monospace" font-size="10" fill="#39D353" text-anchor="end">+0 since last scan</text>
 <line x1="0" y1="36" x2="900" y2="36" stroke="#21262D" stroke-width="1"/>
 
-<polyline points="20.0,130.0 67.8,103.7 115.6,82.5 163.3,76.4 211.1,76.4 258.9,70.3 306.7,70.3 354.4,70.3 402.2,69.3 450.0,63.3 497.8,63.3 545.6,63.3 593.3,58.2 641.1,55.2 688.9,47.1 736.7,46.1 784.4,44.0 832.2,42.0 880.0,40.0" fill="none" stroke="#00F5FF" stroke-width="2"/>
+<polyline points="20.0,130.0 65.3,103.7 110.5,82.5 155.8,76.4 201.1,76.4 246.3,70.3 291.6,70.3 336.8,70.3 382.1,69.3 427.4,63.3 472.6,63.3 517.9,63.3 563.2,58.2 608.4,55.2 653.7,47.1 698.9,46.1 744.2,44.0 789.5,42.0 834.7,40.0 880.0,40.0" fill="none" stroke="#00F5FF" stroke-width="2"/>
 
 <text x="20" y="148" font-family="monospace" font-size="9" fill="#484F58">Total views: 397</text>
-<text x="880" y="148" font-family="monospace" font-size="9" fill="#484F58" text-anchor="end">19 samples tracked</text>
+<text x="880" y="148" font-family="monospace" font-size="9" fill="#484F58" text-anchor="end">20 samples tracked</text>
 </svg>
