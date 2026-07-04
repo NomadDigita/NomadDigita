@@ -13,8 +13,8 @@
 <text x="880" y="26" font-family="monospace" font-size="10" fill="#39D353" text-anchor="end">+0 since last scan</text>
 <line x1="0" y1="36" x2="900" y2="36" stroke="#21262D" stroke-width="1"/>
 
-<polyline points="20.0,130.0 63.0,103.7 106.0,82.5 149.0,76.4 192.0,76.4 235.0,70.3 278.0,70.3 321.0,70.3 364.0,69.3 407.0,63.3 450.0,63.3 493.0,63.3 536.0,58.2 579.0,55.2 622.0,47.1 665.0,46.1 708.0,44.0 751.0,42.0 794.0,40.0 837.0,40.0 880.0,40.0" fill="none" stroke="#00F5FF" stroke-width="2"/>
+<polyline points="20.0,130.0 61.0,103.7 101.9,82.5 142.9,76.4 183.8,76.4 224.8,70.3 265.7,70.3 306.7,70.3 347.6,69.3 388.6,63.3 429.5,63.3 470.5,63.3 511.4,58.2 552.4,55.2 593.3,47.1 634.3,46.1 675.2,44.0 716.2,42.0 757.1,40.0 798.1,40.0 839.0,40.0 880.0,40.0" fill="none" stroke="#00F5FF" stroke-width="2"/>
 
 <text x="20" y="148" font-family="monospace" font-size="9" fill="#484F58">Total views: 397</text>
-<text x="880" y="148" font-family="monospace" font-size="9" fill="#484F58" text-anchor="end">21 samples tracked</text>
+<text x="880" y="148" font-family="monospace" font-size="9" fill="#484F58" text-anchor="end">22 samples tracked</text>
 </svg>
