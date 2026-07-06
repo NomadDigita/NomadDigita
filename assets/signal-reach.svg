@@ -13,8 +13,8 @@
 <text x="880" y="26" font-family="monospace" font-size="10" fill="#39D353" text-anchor="end">+3 since last scan</text>
 <line x1="0" y1="36" x2="900" y2="36" stroke="#21262D" stroke-width="1"/>
 
-<polyline points="20.0,130.0 51.9,106.6 83.7,87.7 115.6,82.3 147.4,82.3 179.3,76.9 211.1,76.9 243.0,76.9 274.8,76.0 306.7,70.6 338.5,70.6 370.4,70.6 402.2,66.1 434.1,63.4 465.9,56.2 497.8,55.3 529.6,53.5 561.5,51.7 593.3,49.9 625.2,49.9 657.0,49.9 688.9,49.9 720.7,48.1 752.6,48.1 784.4,48.1 816.3,45.4 848.1,42.7 880.0,40.0" fill="none" stroke="#00F5FF" stroke-width="2"/>
+<polyline points="20.0,130.0 50.7,107.3 81.4,88.9 112.1,83.7 142.9,83.7 173.6,78.4 204.3,78.4 235.0,78.4 265.7,77.6 296.4,72.3 327.1,72.3 357.9,72.3 388.6,68.0 419.3,65.3 450.0,58.3 480.7,57.5 511.4,55.7 542.1,54.0 572.9,52.2 603.6,52.2 634.3,52.2 665.0,52.2 695.7,50.5 726.4,50.5 757.1,50.5 787.9,47.9 818.6,45.2 849.3,42.6 880.0,40.0" fill="none" stroke="#00F5FF" stroke-width="2"/>
 
-<text x="20" y="148" font-family="monospace" font-size="9" fill="#484F58">Total views: 408</text>
-<text x="880" y="148" font-family="monospace" font-size="9" fill="#484F58" text-anchor="end">28 samples tracked</text>
+<text x="20" y="148" font-family="monospace" font-size="9" fill="#484F58">Total views: 411</text>
+<text x="880" y="148" font-family="monospace" font-size="9" fill="#484F58" text-anchor="end">29 samples tracked</text>
 </svg>
