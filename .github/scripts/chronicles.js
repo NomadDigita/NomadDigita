@@ -2,6 +2,8 @@ const https = require('https');
 const fs = require('fs');
 
 const USERNAME = 'NomadDigita';
+const TOKEN     = process.env.GITHUB_TOKEN;
+const GEMINI    = process.env.GEMINI_API_KEY;
 
 function githubAPI(path) {
   return new Promise((resolve, reject) => {
@@ -9,7 +11,7 @@ function githubAPI(path) {
       hostname: 'api.github.com', path,
       headers: {
         'User-Agent': 'Chronicles-Bot',
-        'Authorization': `token ${process.env.GITHUB_TOKEN}`
+        'Authorization': `token ${TOKEN}`
       }
     }, res => {
       let d = '';
@@ -22,12 +24,13 @@ function githubAPI(path) {
 async function callGemini(prompt) {
   const body = JSON.stringify({
     contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: { maxOutputTokens: 120, temperature: 0.9 }
+    generationConfig: { maxOutputTokens: 200, temperature: 0.9 }
   });
   return new Promise((resolve) => {
     const req = https.request({
       hostname: 'generativelanguage.googleapis.com',
-      path: `/v1beta/models/gemini-2.5-flash:generateContent?key=${process.env.GEMINI_API_KEY}`,
+      path: `/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI}`,
+      method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(body) }
     }, res => {
       let d = '';
@@ -46,9 +49,8 @@ async function callGemini(prompt) {
 
 async function main() {
   const events = await githubAPI(`/users/${USERNAME}/events?per_page=100`);
-  const pushEvents = (events || []).filter(e => e.type === 'PushEvent');
+  const pushEvents = (Array.isArray(events) ? events : []).filter(e => e.type === 'PushEvent');
 
-  // Only this week's events
   const weekAgo = new Date();
   weekAgo.setDate(weekAgo.getDate() - 7);
   const weekEvents = pushEvents.filter(e => new Date(e.created_at) > weekAgo);
@@ -63,6 +65,15 @@ async function main() {
   const now = new Date();
   const weekNum = Math.ceil((now - new Date(now.getFullYear(), 0, 1)) / 604800000);
   const year = now.getFullYear();
+
+  const readme = fs.readFileSync('README.md', 'utf8');
+
+  // Prevent duplicate entries for the same week
+  const weekMarker = `Week ${weekNum} · ${year}`;
+  if (readme.includes(weekMarker)) {
+    console.log(`⚠️ Chronicle for ${weekMarker} already exists — skipping to avoid duplicate.`);
+    process.exit(0);
+  }
 
   const prompt = `You are writing a single entry in the "Chronicles" of Asiwaju — a Web3 + AI engineer known as "The Digital Vagabond" (GitHub: NomadDigita).
 
@@ -80,8 +91,6 @@ Write ONLY the journal entry. No labels, no titles, nothing else.`;
   });
 
   const newEntry = `\n### ◈ Week ${weekNum} · ${year} · ${dateStr}\n\n*${entry}*\n<!-- CHRONICLE_ENTRY -->`;
-
-  const readme = fs.readFileSync('README.md', 'utf8');
 
   if (!readme.includes('<!-- CHRONICLES_START -->')) {
     console.error('❌ README missing <!-- CHRONICLES_START --> marker');
