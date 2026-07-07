@@ -18,6 +18,12 @@ function githubAPI(path) {
   });
 }
 
+function isValidResponse(text) {
+  if (!text || text.length < 20) return false;
+  if (!/[.!?]$/.test(text.trim())) return false;
+  return true;
+}
+
 function gemini(prompt) {
   const body = JSON.stringify({
     contents: [{ parts: [{ text: prompt }] }],
@@ -94,7 +100,7 @@ DATA:
 - Recent active repos: ${recentRepoNames.length ? recentRepoNames.join(', ') : 'various projects'}
 - Recent commit messages: ${recentMessages.length ? recentMessages.slice(0,10).join(' | ') : 'steady incremental progress'}
 
-Based on these patterns, predict ONE specific, plausible thing he is likely to build or explore NEXT. Write it as a confident, slightly mysterious prediction in 2 sentences. Start with "The signs point to..." Be SPECIFIC and technical. End with a confidence percentage like "Confidence: 78%"`;
+Based on these patterns, predict ONE specific, plausible thing he is likely to build or explore NEXT. Write it as a confident, slightly mysterious prediction in exactly 2 sentences. Do not use markdown formatting like asterisks or bold. Start with "The signs point to..." Be SPECIFIC and technical. End the second sentence with a confidence percentage in this exact format: "Confidence: 78%"`;
 
   let prediction;
   try {
@@ -104,9 +110,9 @@ Based on these patterns, predict ONE specific, plausible thing he is likely to b
     prediction = null;
   }
 
-  if (!prediction) {
-    console.log('⚠️ Using fallback prediction text');
-    prediction = 'The signs point to deeper onchain automation ahead — likely an expansion of agentic infrastructure across multiple chains. Confidence: 60%';
+  if (!isValidResponse(prediction)) {
+    console.log('⚠️ Using fallback prediction text (invalid or truncated response)');
+    prediction = 'The signs point to deeper onchain automation ahead, likely an expansion of agentic infrastructure across multiple chains. Confidence: 60%';
   }
 
   const now = new Date();
@@ -118,18 +124,9 @@ Based on these patterns, predict ONE specific, plausible thing he is likely to b
 *${prediction}*
 <!-- ORACLE_END -->`;
 
-  let readme;
-  try {
-    readme = fs.readFileSync('README.md', 'utf8');
-  } catch (e) {
-    console.error('❌ Could not read README.md:', e.message);
-    process.exit(1);
-  }
-
+  const readme = fs.readFileSync('README.md', 'utf8');
   if (!readme.includes('<!-- ORACLE_START -->') || !readme.includes('<!-- ORACLE_END -->')) {
     console.error('❌ README missing ORACLE markers.');
-    console.error('README length:', readme.length);
-    console.error('Contains "Oracle" text?', readme.includes('Oracle'));
     process.exit(1);
   }
 
@@ -146,6 +143,5 @@ Based on these patterns, predict ONE specific, plausible thing he is likely to b
 
 main().catch(e => {
   console.error('❌ FATAL UNCAUGHT ERROR:', e.message);
-  console.error(e.stack);
   process.exit(1);
 });
