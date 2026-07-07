@@ -33,7 +33,7 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 function gemini(prompt) {
   const body = JSON.stringify({
     contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: { maxOutputTokens: 200, temperature: 0.7 }
+    generationConfig: { maxOutputTokens: 250, temperature: 0.6 }
   });
   return new Promise(resolve => {
     const req = https.request({
@@ -57,14 +57,13 @@ function gemini(prompt) {
 async function main() {
   console.log('🏆 Achievement Engine activating (live data only)...');
 
-  const user  = await githubAPI(`/users/${USERNAME}`);
   const repos = await githubAPI(`/users/${USERNAME}/repos?sort=pushed&per_page=30`);
   const ownRepos = (Array.isArray(repos) ? repos : []).filter(r => !r.fork);
 
-  // REAL: total stars across all owned repos
-  const totalStars = ownRepos.reduce((s, r) => s + (r.stargazers_count || 0), 0);
+  // FIXED: Starstruck tracks the HIGHEST star count on any single repo, not the sum
+  const totalStars = Math.max(...ownRepos.map(r => r.stargazers_count || 0), 0);
+  const topStarredRepo = ownRepos.sort((a, b) => (b.stargazers_count||0) - (a.stargazers_count||0))[0];
 
-  // REAL: merged PRs authored by user, across owned repos (checked individually)
   let mergedPRCount = 0;
   let coAuthoredCommitFound = false;
   let fastCloseFound = false;
@@ -74,7 +73,6 @@ async function main() {
     if (Array.isArray(prs)) {
       mergedPRCount += prs.filter(p => p.merged_at).length;
 
-      // Check for fast close/merge (within 5 min of creation) — real Quickdraw check
       for (const pr of prs) {
         if (pr.merged_at && pr.created_at) {
           const diffMin = (new Date(pr.merged_at) - new Date(pr.created_at)) / 60000;
@@ -83,7 +81,6 @@ async function main() {
       }
     }
 
-    // Check recent commits for co-authored-by trailer
     const commits = await githubAPI(`/repos/${USERNAME}/${repo.name}/commits?per_page=10`);
     if (Array.isArray(commits)) {
       const hasCoAuthor = commits.some(c =>
@@ -93,7 +90,6 @@ async function main() {
     }
   }
 
-  // REAL: discussions check (Galaxy Brain requires accepted answer — check via search API)
   const discussionSearch = await githubAPI(
     `/search/issues?q=author:${USERNAME}+type:pr+is:merged+review:approved`
   );
@@ -102,33 +98,28 @@ async function main() {
   const achievements = [
     {
       name: 'Pull Shark', icon: '🦈',
-      progress: mergedPRCount, target: 2,
-      desc: 'Merge pull requests',
-      verified: true
+      progress: mergedPRCount, target: 16,
+      desc: 'Merge pull requests (next tier: 16)',
     },
     {
       name: 'Quickdraw', icon: '⚡',
       progress: fastCloseFound ? 1 : 0, target: 1,
       desc: 'Merge PR within 5 min of opening',
-      verified: true
     },
     {
       name: 'Pair Extraordinaire', icon: '👥',
       progress: coAuthoredCommitFound ? 1 : 0, target: 1,
       desc: 'Co-authored commit detected',
-      verified: true
     },
     {
       name: 'YOLO', icon: '🎯',
       progress: reviewedMergedPRs === 0 && mergedPRCount > 0 ? 1 : 0, target: 1,
       desc: 'Merge without review (heuristic)',
-      verified: true
     },
     {
       name: 'Starstruck', icon: '⭐',
       progress: totalStars, target: 16,
-      desc: '16+ stars on a single repo',
-      verified: true
+      desc: `16+ stars on a single repo (top: ${topStarredRepo?.name || 'none'})`,
     },
   ];
 
@@ -138,7 +129,6 @@ async function main() {
     return `| ${a.icon} **${a.name}** | ${a.desc} | \`${bar}\` ${pct}% | ${a.progress}/${a.target} |`;
   }).join('\n');
 
-  // Open ONE real issue if a genuine repo improvement is identifiable
   let issuesOpened = 0;
   const findings = [];
   const targetRepo = ownRepos[0];
@@ -148,7 +138,7 @@ async function main() {
     const alreadyHasAgentIssue = (existingIssues || []).some(i => i.title?.startsWith('🤖 [Auto-Review]'));
 
     if (!alreadyHasAgentIssue) {
-      await sleep(1200); // pace the Gemini call
+      await sleep(1200);
       const prompt = `You are a code review AI looking at the repo "${targetRepo.name}" (language: ${targetRepo.language || 'unknown'}, description: "${targetRepo.description || 'none'}").
 
 Write a SHORT, genuinely useful GitHub issue suggesting ONE realistic improvement. Format as:
