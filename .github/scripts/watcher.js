@@ -18,6 +18,12 @@ function githubAPI(path) {
   });
 }
 
+function isValidResponse(text) {
+  if (!text || text.length < 20) return false;
+  if (!/[.!?]$/.test(text.trim())) return false;
+  return true;
+}
+
 function gemini(prompt, maxTokens = 300) {
   const body = JSON.stringify({
     contents: [{ parts: [{ text: prompt }] }],
@@ -77,23 +83,21 @@ async function main() {
     });
   }
 
-  // Cross-link: find repo closest to Starstruck achievement (16 stars)
   const sortedByStars = [...intelligence].sort((a, b) => b.stars - a.stars);
   const closestToStarstruck = sortedByStars[0];
   const achievementHint = closestToStarstruck
     ? `\n> 🎯 **Achievement watch:** [${closestToStarstruck.name}](https://github.com/${USERNAME}/${closestToStarstruck.name}) is closest to **Starstruck** (${closestToStarstruck.stars}/16 stars).`
     : '';
 
-  // AI threat/opportunity assessment
   const reportPrompt = `You are "The Watcher" — an autonomous AI system monitoring NomadDigita's (Asiwaju, "The Digital Vagabond") GitHub repos.
 
 Here is the current state of his 6 most recently active repos:
 ${intelligence.map(r => `- ${r.name} (${r.language}, ${r.status}, ${r.stars} stars): recent commits — ${r.commitList}`).join('\n')}
 
-Write a SHORT intelligence briefing (max 3 sentences) as if you are a surveillance AI reporting findings. Identify ONE thing going well and ONE thing that needs attention. Be sharp, technical, slightly ominous but supportive. Speak in third person about "the subject" or "the builder." End every sentence with proper punctuation.`;
+Write a SHORT intelligence briefing in exactly 2-3 complete sentences as if you are a surveillance AI reporting findings. Do not use markdown formatting. Identify ONE thing going well and ONE thing that needs attention. Be sharp, technical, slightly ominous but supportive. Speak in third person about "the subject" or "the builder." Always finish your final sentence completely with proper punctuation.`;
 
-  let briefing = await gemini(reportPrompt, 250);
-  if (!briefing || briefing.length < 20) {
+  let briefing = await gemini(reportPrompt, 300);
+  if (!isValidResponse(briefing)) {
     briefing = 'The Watcher observes steady signal across all monitored repositories. No anomalies detected.';
   }
 
