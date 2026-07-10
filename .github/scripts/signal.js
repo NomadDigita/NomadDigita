@@ -4,7 +4,16 @@ const fs    = require('fs');
 const TOKEN      = process.env.GITHUB_TOKEN;
 const GEMINI_KEY = process.env.GEMINI_API_KEY;
 const ISSUE_NUM  = process.env.ISSUE_NUMBER;
-const QUESTION   = (process.env.ISSUE_BODY || '').replace(/<!--[\s\S]*?-->/g, '').trim();
+function stripHtmlComments(input) {
+  let previous;
+  let current = input;
+  do {
+    previous = current;
+    current = current.replace(/<!--[\s\S]*?-->/g, '');
+  } while (current !== previous);
+  return current;
+}
+const QUESTION   = stripHtmlComments(process.env.ISSUE_BODY || '').trim();
 const SENDER     = process.env.ISSUE_USER || 'traveler';
 
 function gemini(prompt) {
