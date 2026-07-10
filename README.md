@@ -211,18 +211,18 @@ NomadDigita is absolutely *crushing* it, diving deep into AI-powered trading and
 *An agent that reviews real repos weekly, opens genuinely useful self-review issues, and tracks real GitHub achievement progress — every number below is live, never simulated.*
 
 <!-- ACHIEVEMENT_START -->
-> 🏆 **Last cycle:** 9 July 2026 · No new issues needed this cycle
+> 🏆 **Last cycle:** 10 July 2026 · No new issues needed this cycle
 > All progress below verified live against the GitHub API — zero mock data.
 
 
 
 | Achievement | Requirement | Progress | Raw |
 |---|---|---|---|
-| 🦈 **Pull Shark** | Merge pull requests (next tier: 16) | `████████░░` 81% | 13/16 |
+| 🦈 **Pull Shark** | Merge pull requests (next tier: 16) | `██████████` 100% | 21/16 |
 | ⚡ **Quickdraw** | Merge PR within 5 min of opening | `██████████` 100% | 1/1 |
 | 👥 **Pair Extraordinaire** | Co-authored commit detected | `░░░░░░░░░░` 0% | 0/1 |
 | 🎯 **YOLO** | Merge without review (heuristic) | `██████████` 100% | 1/1 |
-| ⭐ **Starstruck** | 16+ stars on a single repo (top: NomadDigita) | `███░░░░░░░` 25% | 4/16 |
+| ⭐ **Starstruck** | 16+ stars on a single repo (top: Covenant) | `███░░░░░░░` 25% | 4/16 |
 
 <sub>Every metric above is computed live from real PRs, commits, and stars at scan time — not simulated.</sub>
 <!-- ACHIEVEMENT_END -->
