@@ -611,5 +611,5 @@ When DeFi needed a shield — AI-powered rug pull detection before you lose ever
 ![Frequency Engine Waveform](assets/frequency-engine.gif)
 
 *72 real commits across 7 repos this week, rendered as audio — commit hour sets the pitch, lines changed set the dynamics, language sets the timbre.*
-> 🎧 **Listen:** [frequency-engine.wav](assets/frequency-engine.wav) · Last rendered: 2026-07-11 05:35 UTC
+> 🎧 **Listen:** [frequency-engine.wav](assets/frequency-engine.wav) · Last rendered: 2026-07-11 05:36 UTC
 <!-- SONIFY_END -->
