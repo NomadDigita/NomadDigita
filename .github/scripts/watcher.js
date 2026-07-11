@@ -27,7 +27,7 @@ function isValidResponse(text) {
 function gemini(prompt, maxTokens = 300) {
   const body = JSON.stringify({
     contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: { maxOutputTokens: maxTokens, temperature: 0.6 }
+    generationConfig: { maxOutputTokens: maxTokens, temperature: 0.6, thinkingConfig: { thinkingBudget: 0 } }
   });
   return new Promise(resolve => {
     const req = https.request({

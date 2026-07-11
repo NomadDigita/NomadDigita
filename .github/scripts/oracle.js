@@ -27,7 +27,7 @@ function isValidResponse(text) {
 function gemini(prompt) {
   const body = JSON.stringify({
     contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: { maxOutputTokens: 400, temperature: 0.6 }
+    generationConfig: { maxOutputTokens: 400, temperature: 0.6, thinkingConfig: { thinkingBudget: 0 } }
   });
   return new Promise(resolve => {
     const req = https.request({
@@ -103,6 +103,7 @@ DATA:
 Based on these patterns, predict ONE specific, plausible thing he is likely to build or explore NEXT. Write it as a confident, slightly mysterious prediction in exactly 2 sentences. Do not use markdown formatting like asterisks or bold. Start with "The signs point to..." Be SPECIFIC and technical. End the second sentence with a confidence percentage in this exact format: "Confidence: 78%"`;
 
   let prediction;
+  let usedFallback = false;
   try {
     prediction = await gemini(prompt);
   } catch (e) {
@@ -112,14 +113,19 @@ Based on these patterns, predict ONE specific, plausible thing he is likely to b
 
   if (!isValidResponse(prediction)) {
     console.log('⚠️ Using fallback prediction text (invalid or truncated response)');
-    prediction = 'The signs point to deeper onchain automation ahead, likely an expansion of agentic infrastructure across multiple chains. Confidence: 60%';
+    prediction = 'The signal was too thin to form a confident prediction this cycle — check back next week once there is more commit activity to read.';
+    usedFallback = true;
   }
 
   const now = new Date();
   const dateStr = now.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 
+  const statusLine = usedFallback
+    ? `> 🔮 **Forecast generated:** ${dateStr} · ⚠️ Low signal this cycle (${recentMessages.length} recent commits) — showing a placeholder, not a real prediction`
+    : `> 🔮 **Forecast generated:** ${dateStr} · Based on ${recentMessages.length} recent signals`;
+
   const section = `<!-- ORACLE_START -->
-> 🔮 **Forecast generated:** ${dateStr} · Based on ${recentMessages.length} recent signals
+${statusLine}
 
 *${prediction}*
 <!-- ORACLE_END -->`;

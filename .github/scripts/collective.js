@@ -20,11 +20,17 @@ function githubAPI(path) {
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
+function isValidResponse(text) {
+  if (!text || text.length < 15) return false;
+  if (!/[.!?]$/.test(text.trim())) return false;
+  return true;
+}
+
 function gemini(systemContext, prompt) {
   const fullPrompt = `${systemContext}\n\n${prompt}`;
   const body = JSON.stringify({
     contents: [{ parts: [{ text: fullPrompt }] }],
-    generationConfig: { maxOutputTokens: 500, temperature: 0.5 }
+    generationConfig: { maxOutputTokens: 400, temperature: 0.5, thinkingConfig: { thinkingBudget: 0 } }
   });
   return new Promise(resolve => {
     const req = https.request({
@@ -64,11 +70,11 @@ async function main() {
   for (const [key, persona] of Object.entries(PERSONAS)) {
     const prompt = `Here are NomadDigita's current active repos:\n${repoContext}\n\nGive your assessment in character.`;
     const response = await gemini(persona.system, prompt);
-    if (!response) {
-      console.log(`⚠️ ${persona.name} got no response — retrying once after delay`);
+    if (!isValidResponse(response)) {
+      console.log(`⚠️ ${persona.name} got no/truncated response — retrying once after delay`);
       await sleep(3000);
       const retry = await gemini(persona.system, prompt);
-      statements[key] = retry || `${persona.name} found no signal this cycle — will reassess next session.`;
+      statements[key] = isValidResponse(retry) ? retry : `${persona.name} found no signal this cycle — will reassess next session.`;
     } else {
       statements[key] = response;
     }
@@ -78,7 +84,8 @@ async function main() {
 
   const debatePrompt = `The Auditor just said: "${statements.auditor}"\n\nRespond to this directly — agree, push back, or add nuance. Stay in character as The Architect. Max 2 sentences.`;
   await sleep(2000);
-  const architectRebuttal = await gemini(PERSONAS.architect.system, debatePrompt);
+  const architectRebuttalRaw = await gemini(PERSONAS.architect.system, debatePrompt);
+  const architectRebuttal = isValidResponse(architectRebuttalRaw) ? architectRebuttalRaw : null;
 
   const now = new Date();
   const dateStr = now.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });

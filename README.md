@@ -544,14 +544,6 @@ When DeFi needed a shield — AI-powered rug pull detection before you lose ever
 *An auto-written record of the build — updated every Sunday by Gemini AI.*
 
 <!-- CHRONICLES_START -->
-### ◈ Week 28 · 2026 · 9 July 2026
-
-*In the 28th*
-<!-- CHRONICLE_ENTRY -->
-### ◈ Week 27 · 2026 · 5 July 2026
-
-*The vagabond was silent this week.*
-<!-- CHRONICLE_ENTRY -->
 ### ◈ Week 27 · 2026 · 5 July 2026
 
 *The vagabond was silent this week.*

@@ -19,7 +19,7 @@ const SENDER     = process.env.ISSUE_USER || 'traveler';
 function gemini(prompt) {
   const body = JSON.stringify({
     contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: { maxOutputTokens: 220, temperature: 0.85 }
+    generationConfig: { maxOutputTokens: 300, temperature: 0.85, thinkingConfig: { thinkingBudget: 0 } }
   });
   return new Promise(resolve => {
     const req = https.request({

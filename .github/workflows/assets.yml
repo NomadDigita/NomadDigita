@@ -60,4 +60,8 @@ jobs:
           git config user.name "GitHub Action"
           git add assets/
           git commit -m "🌌 Visual assets updated" || echo "No changes"
-          git push
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && break
+            echo "Push attempt $i failed, retrying..."
+            sleep $((RANDOM % 10 + 5))
+          done

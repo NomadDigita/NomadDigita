@@ -28,4 +28,8 @@ jobs:
           git config user.name "GitHub Action"
           git add README.md assets/frequency-engine.wav assets/frequency-engine.gif
           git commit -m "🎵 The Frequency Engine: commit sonification updated" || echo "No changes"
-          git push
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && break
+            echo "Push attempt $i failed, retrying..."
+            sleep $((RANDOM % 10 + 5))
+          done

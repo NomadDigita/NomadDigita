@@ -21,10 +21,16 @@ function githubAPI(path) {
   });
 }
 
+function isValidResponse(text) {
+  if (!text || text.length < 15) return false;
+  if (!/[.!?]$/.test(text.trim())) return false;
+  return true;
+}
+
 async function callGemini(prompt) {
   const body = JSON.stringify({
     contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: { maxOutputTokens: 200, temperature: 0.9 }
+    generationConfig: { maxOutputTokens: 300, temperature: 0.9, thinkingConfig: { thinkingBudget: 0 } }
   });
   return new Promise((resolve) => {
     const req = https.request({
@@ -85,12 +91,13 @@ ${commits.length > 0 ? commits.slice(0, 10).join('\n') : 'No commits recorded. T
 Write ONLY the journal entry. No labels, no titles, nothing else.`;
 
   const entry = await callGemini(prompt);
+  const finalEntry = isValidResponse(entry) ? entry : 'The vagabond moved quietly this week — no clear story to tell yet.';
 
   const dateStr = now.toLocaleDateString('en-GB', {
     day: 'numeric', month: 'long', year: 'numeric'
   });
 
-  const newEntry = `\n### ◈ Week ${weekNum} · ${year} · ${dateStr}\n\n*${entry}*\n<!-- CHRONICLE_ENTRY -->`;
+  const newEntry = `\n### ◈ Week ${weekNum} · ${year} · ${dateStr}\n\n*${finalEntry}*\n<!-- CHRONICLE_ENTRY -->`;
 
   if (!readme.includes('<!-- CHRONICLES_START -->')) {
     console.error('❌ README missing <!-- CHRONICLES_START --> marker');

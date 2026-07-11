@@ -33,7 +33,7 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 function gemini(prompt) {
   const body = JSON.stringify({
     contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: { maxOutputTokens: 250, temperature: 0.6 }
+    generationConfig: { maxOutputTokens: 300, temperature: 0.6, thinkingConfig: { thinkingBudget: 0 } }
   });
   return new Promise(resolve => {
     const req = https.request({
