@@ -1,20 +1,20 @@
 <svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
 <defs>
   <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#4CAF50" stop-opacity="0.7"/>
+    <stop offset="0%" stop-color="#39D353" stop-opacity="0.7"/>
     <stop offset="100%" stop-color="#AB47BC" stop-opacity="0.5"/>
   </linearGradient>
 </defs>
 <rect width="900" height="200" rx="10" fill="#0D1117"/>
 <rect x=".5" y=".5" width="899" height="199" rx="10" fill="none" stroke="url(#border)" stroke-width="1"/>
 
-<text x="20" y="26" font-family="monospace" font-size="11" font-weight="bold" fill="#4CAF50" letter-spacing="3">THE VAULT</text>
+<text x="20" y="26" font-family="monospace" font-size="11" font-weight="bold" fill="#39D353" letter-spacing="3">THE VAULT</text>
 <text x="125" y="26" font-family="monospace" font-size="10" fill="#484F58"> · LIVE SECURITY &amp; TECH-DEBT SCORE</text>
 <line x1="0" y1="36" x2="900" y2="36" stroke="#21262D" stroke-width="1"/>
 
-<text x="20" y="100" font-family="monospace" font-size="48" font-weight="bold" fill="#4CAF50">88</text>
+<text x="20" y="100" font-family="monospace" font-size="48" font-weight="bold" fill="#39D353">90</text>
 <text x="130" y="80" font-family="monospace" font-size="9" fill="#484F58">TRUST SCORE</text>
-<text x="130" y="100" font-family="monospace" font-size="20" font-weight="bold" fill="#4CAF50">GRADE A</text>
+<text x="130" y="100" font-family="monospace" font-size="20" font-weight="bold" fill="#39D353">GRADE A+</text>
 <text x="130" y="118" font-family="monospace" font-size="9" fill="#484F58">8 repos scanned</text>
 
 <line x1="330" y1="46" x2="330" y2="190" stroke="#161B22" stroke-width="1"/>
@@ -26,7 +26,7 @@
 <text x="650" y="85" font-family="monospace" font-size="10" fill="#39D353" text-anchor="end">0 repos</text>
 
 <text x="350" y="110" font-family="monospace" font-size="9" fill="#484F58">Open TODO markers:</text>
-<text x="650" y="110" font-family="monospace" font-size="10" fill="#8B949E" text-anchor="end">6 found</text>
+<text x="650" y="110" font-family="monospace" font-size="10" fill="#8B949E" text-anchor="end">5 found</text>
 
 <text x="350" y="180" font-family="monospace" font-size="8" fill="#3D4450">Computed live from real repo contents — not simulated.</text>
 </svg>
