@@ -138,20 +138,20 @@
 *An AI agent that scans every active repo every 6 hours and reports findings — now cross-referencing live achievement progress.*
 
 <!-- WATCHER_START -->
-> 🛰️ **Last scan:** 11 Jul, 02:21 UTC · Monitoring 6 active repositories
+> 🛰️ **Last scan:** 11 Jul, 05:47 UTC · Monitoring 6 active repositories
 
 *The Watcher observes steady signal across all monitored repositories. No anomalies detected.*
 
-> 🎯 **Achievement watch:** [The-Vagabond](https://github.com/NomadDigita/The-Vagabond) is closest to **Starstruck** (4/16 stars).
+> 🎯 **Achievement watch:** [NomadDigita](https://github.com/NomadDigita/NomadDigita) is closest to **Starstruck** (4/16 stars).
 
 | Repository | Stack | Status | Last Push | Stars |
 |---|---|---|---|---|
+| [NomadDigita](https://github.com/NomadDigita/NomadDigita) | Mixed | 🟢 ACTIVE TODAY | 0d ago | ⭐ 4 |
+| [Pharos-Agent-Skill](https://github.com/NomadDigita/Pharos-Agent-Skill) | TypeScript | 🟢 ACTIVE TODAY | 0d ago | ⭐ 4 |
+| [mantle-agentic-core](https://github.com/NomadDigita/mantle-agentic-core) | TypeScript | 🟢 ACTIVE TODAY | 0d ago | ⭐ 4 |
 | [The-Vagabond](https://github.com/NomadDigita/The-Vagabond) | Go | 🟢 ACTIVE TODAY | 0d ago | ⭐ 4 |
-| [NomadDigita](https://github.com/NomadDigita/NomadDigita) | JavaScript | 🟢 ACTIVE TODAY | 0d ago | ⭐ 4 |
 | [Asiwaju-Trading-Hub](https://github.com/NomadDigita/Asiwaju-Trading-Hub) | TypeScript | 🟢 ACTIVE TODAY | 0d ago | ⭐ 4 |
 | [Covenant](https://github.com/NomadDigita/Covenant) | TypeScript | 🟢 ACTIVE TODAY | 0d ago | ⭐ 4 |
-| [AutonomousSmartMoneyTracker](https://github.com/NomadDigita/AutonomousSmartMoneyTracker) | TypeScript | 🟢 ACTIVE TODAY | 0d ago | ⭐ 4 |
-| [RugGuard-AI](https://github.com/NomadDigita/RugGuard-AI) | JavaScript | 🟢 ACTIVE TODAY | 0d ago | ⭐ 4 |
 <!-- WATCHER_END -->
 
 ---
