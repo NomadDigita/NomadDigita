@@ -10,10 +10,10 @@
 
 <text x="20" y="26" font-family="monospace" font-size="11" font-weight="bold" fill="#00F5FF" letter-spacing="3">SIGNAL REACH</text>
 <text x="155" y="26" font-family="monospace" font-size="10" fill="#484F58"> · PROFILE VIEW VELOCITY</text>
-<text x="880" y="26" font-family="monospace" font-size="10" fill="#39D353" text-anchor="end">+3 since last scan</text>
+<text x="880" y="26" font-family="monospace" font-size="10" fill="#39D353" text-anchor="end">+0 since last scan</text>
 <line x1="0" y1="36" x2="900" y2="36" stroke="#21262D" stroke-width="1"/>
 
-<polyline points="20.0,130.0 49.7,128.3 79.3,126.5 109.0,124.8 138.6,123.1 168.3,122.5 197.9,121.3 227.6,112.1 257.2,111.5 286.9,110.4 316.6,108.7 346.2,108.7 375.9,108.7 405.5,107.5 435.2,107.5 464.8,106.3 494.5,105.8 524.1,105.8 553.8,101.2 583.4,100.0 613.1,96.5 642.8,94.2 672.4,93.1 702.1,71.7 731.7,57.3 761.4,56.7 791.0,49.8 820.7,43.5 850.3,41.7 880.0,40.0" fill="none" stroke="#00F5FF" stroke-width="2"/>
+<polyline points="20.0,130.0 49.7,128.2 79.3,126.5 109.0,124.7 138.6,124.1 168.3,122.9 197.9,113.5 227.6,112.9 257.2,111.8 286.9,110.0 316.6,110.0 346.2,110.0 375.9,108.8 405.5,108.8 435.2,107.6 464.8,107.1 494.5,107.1 524.1,102.4 553.8,101.2 583.4,97.6 613.1,95.3 642.8,94.1 672.4,72.4 702.1,57.6 731.7,57.1 761.4,50.0 791.0,43.5 820.7,41.8 850.3,40.0 880.0,40.0" fill="none" stroke="#00F5FF" stroke-width="2"/>
 
 <text x="20" y="148" font-family="monospace" font-size="9" fill="#484F58">Total views: 555</text>
 <text x="880" y="148" font-family="monospace" font-size="9" fill="#484F58" text-anchor="end">30 samples tracked</text>
