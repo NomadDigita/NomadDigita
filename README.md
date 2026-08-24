@@ -642,8 +642,8 @@ WOAH! NomadDigita's pushing the boundaries with Go and TypeScript, hinting at so
 <!-- SONIFY_START -->
 ![Frequency Engine Waveform](assets/frequency-engine.gif)
 
-*20 real commits across 2 repos this week, rendered as audio — commit hour sets the pitch, lines changed set the dynamics, language sets the timbre.*
-> 🎧 **Listen:** [frequency-engine.wav](assets/frequency-engine.wav) · Last rendered: 2026-08-17 07:50 UTC
+*17 real commits across 2 repos this week, rendered as audio — commit hour sets the pitch, lines changed set the dynamics, language sets the timbre.*
+> 🎧 **Listen:** [frequency-engine.wav](assets/frequency-engine.wav) · Last rendered: 2026-08-24 07:54 UTC
 <!-- SONIFY_END -->
 
 <br/>
