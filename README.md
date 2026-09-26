@@ -238,9 +238,9 @@ When DeFi needed a shield — AI-powered rug pull detection before you lose ever
 *An AI agent that scans every active repo every 6 hours and reports findings — now cross-referencing live achievement progress.*
 
 <!-- WATCHER_START -->
-> 🛰️ **Last scan:** 26 Sept, 10:44 UTC · Monitoring 6 active repositories
+> 🛰️ **Last scan:** 26 Sept, 15:41 UTC · Monitoring 6 active repositories
 
-*The subject, Asiwaju, is demonstrating strong engagement and active development within the NomadDigita repository, evidenced by recent visual asset updates and AI dev log entries. However, several critical trading and agent-related repositories, including AutonomousSmartMoneyTracker and Asiwaju-Trading-Hub, are currently cooling, indicating a potential shift in focus or a need for renewed attention to ensure their operational stability and continued advancement. The Watcher observes.*
+*The subject, Asiwaju, is demonstrating consistent engagement with visual assets and self-reporting mechanisms within the NomadDigita repository, indicating a healthy focus on presentation and internal monitoring. However, a critical autopilot bypass in Asiwaju-Trading-Hub, which ignored all safety guardrails and never closed positions, demands immediate and thorough attention to prevent potential catastrophic failures. The Watcher continues to observe and record.*
 
 > 🎯 **Achievement watch:** [TradeMind-AI](https://github.com/NomadDigita/TradeMind-AI) is closest to **Starstruck** (5/16 stars).
 
@@ -249,7 +249,7 @@ When DeFi needed a shield — AI-powered rug pull detection before you lose ever
 | [NomadDigita](https://github.com/NomadDigita/NomadDigita) | Mixed | 🟢 ACTIVE TODAY | 0d ago | ⭐ 4 |
 | [AutonomousSmartMoneyTracker](https://github.com/NomadDigita/AutonomousSmartMoneyTracker) | TypeScript | 🟡 COOLING | 12d ago | ⭐ 4 |
 | [Asiwaju-Trading-Hub](https://github.com/NomadDigita/Asiwaju-Trading-Hub) | TypeScript | 🟡 COOLING | 12d ago | ⭐ 4 |
-| [mantle-agentic-core](https://github.com/NomadDigita/mantle-agentic-core) | TypeScript | 🟡 COOLING | 12d ago | ⭐ 4 |
+| [mantle-agentic-core](https://github.com/NomadDigita/mantle-agentic-core) | TypeScript | 🟡 COOLING | 13d ago | ⭐ 4 |
 | [TradeMind-AI](https://github.com/NomadDigita/TradeMind-AI) | JavaScript | ⚪ DORMANT | 15d ago | ⭐ 5 |
 | [Pharos-Agent-Skill](https://github.com/NomadDigita/Pharos-Agent-Skill) | TypeScript | ⚪ DORMANT | 16d ago | ⭐ 4 |
 <!-- WATCHER_END -->
