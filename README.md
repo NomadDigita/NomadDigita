@@ -329,17 +329,17 @@ When DeFi needed a shield — AI-powered rug pull detection before you lose ever
 *An agent that reviews real repos weekly, opens genuinely useful self-review issues, and tracks real GitHub achievement progress — every number below is live, never simulated.*
 
 <!-- ACHIEVEMENT_START -->
-> 🏆 **Last cycle:** 28 September 2026 · Opened 1 new self-review issue(s)
+> 🏆 **Last cycle:** 5 October 2026 · Opened 1 new self-review issue(s)
 > All progress below verified live against the GitHub API — zero mock data.
 
-- Opened issue on TradeMind-AI: Implement robust error handling for API calls
+- Opened issue on TradeMind-AI: Implement robust error handling for API requests
 
 
 | Achievement | Requirement | Progress | Raw |
 |---|---|---|---|
-| 🦈 **Pull Shark** | Merge pull requests (next tier: 16) | `██████████` 100% | 65/16 |
+| 🦈 **Pull Shark** | Merge pull requests (next tier: 16) | `██████████` 100% | 52/16 |
 | ⚡ **Quickdraw** | Merge PR within 5 min of opening | `██████████` 100% | 1/1 |
-| 👥 **Pair Extraordinaire** | Co-authored commit detected | `██████████` 100% | 1/1 |
+| 👥 **Pair Extraordinaire** | Co-authored commit detected | `░░░░░░░░░░` 0% | 0/1 |
 | 🎯 **YOLO** | Merge without review (heuristic) | `██████████` 100% | 1/1 |
 | ⭐ **Starstruck** | 16+ stars on a single repo (top: TradeMind-AI) | `███░░░░░░░` 31% | 5/16 |
 
