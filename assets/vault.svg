@@ -12,7 +12,7 @@
 <text x="125" y="26" font-family="monospace" font-size="10" fill="#484F58"> · LIVE SECURITY &amp; TECH-DEBT SCORE</text>
 <line x1="0" y1="36" x2="900" y2="36" stroke="#21262D" stroke-width="1"/>
 
-<text x="20" y="100" font-family="monospace" font-size="48" font-weight="bold" fill="#39D353">100</text>
+<text x="20" y="100" font-family="monospace" font-size="48" font-weight="bold" fill="#39D353">96</text>
 <text x="130" y="80" font-family="monospace" font-size="9" fill="#484F58">TRUST SCORE</text>
 <text x="130" y="100" font-family="monospace" font-size="20" font-weight="bold" fill="#39D353">GRADE A+</text>
 <text x="130" y="118" font-family="monospace" font-size="9" fill="#484F58">8 repos scanned</text>
@@ -26,7 +26,7 @@
 <text x="650" y="85" font-family="monospace" font-size="10" fill="#39D353" text-anchor="end">0 repos</text>
 
 <text x="350" y="110" font-family="monospace" font-size="9" fill="#484F58">Open TODO markers:</text>
-<text x="650" y="110" font-family="monospace" font-size="10" fill="#8B949E" text-anchor="end">0 found</text>
+<text x="650" y="110" font-family="monospace" font-size="10" fill="#8B949E" text-anchor="end">2 found</text>
 
 <text x="350" y="180" font-family="monospace" font-size="8" fill="#3D4450">Computed live from real repo contents — not simulated.</text>
 </svg>
