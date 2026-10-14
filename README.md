@@ -1,13 +1,14 @@
 # Asiwaju
 
-I’m a software developer working across AI, Web3, trading systems, and game development. I enjoy building useful products and learning by shipping.
+Software developer building practical systems across AI, Web3, trading, and games.
 
-## Projects
+## Selected projects
 
-- [mantle-agentic-core](https://github.com/NomadDigita/mantle-agentic-core) — Onchain AI agents for monitoring and executing tasks.
-- [TradeMind-AI](https://github.com/NomadDigita/TradeMind-AI) — An AI-powered trading research and analysis platform.
-- [Asiwaju-Trading-Hub](https://github.com/NomadDigita/Asiwaju-Trading-Hub) — A trading interface for DeFi.
-- [RugGuard-AI](https://github.com/NomadDigita/RugGuard-AI) — Tools for identifying potential rug-pull risks.
+- **[Tidelight](https://github.com/NomadDigita/tidelight)** — AI-powered market research that connects events, evidence, and potential exposure across tokenized U.S. equities. [Live product](https://tidelight.app)
+- **[The Vagabond](https://github.com/NomadDigita/The-Vagabond)** — A persistent Telegram MMO with a living world, player factions, combat, and an evolving in-game economy.
+- **[Covenant](https://github.com/NomadDigita/Covenant)** — Decentralized identity, trust, and machine-payment infrastructure for autonomous agents on the Casper Network.
+- **[Asiwaju AI Hub & Agent Shield](https://github.com/NomadDigita/Asiwaju-Trading-Hub)** — A multi-agent trading SDK with zero-trust security middleware.
+- **[Pharos Agent Commerce OS](https://github.com/NomadDigita/Pharos-Agent-Skill)** — Composable services for agent wallets, payments, reputation, social intelligence, and data access.
 
 ## Technologies
 
