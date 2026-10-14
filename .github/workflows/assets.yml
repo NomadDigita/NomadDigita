@@ -49,10 +49,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node .github/scripts/vault.js
 
-      - name: Generate Signal Reach
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node .github/scripts/signal-reach.js
 
       - name: Commit All Assets
         run: |
